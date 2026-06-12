@@ -1,0 +1,2574 @@
+{
+  "train": [
+    {
+      "businessName": "Daylight Roasters",
+      "industry": "Coffee loyalty",
+      "primaryColor": "#365314",
+      "secondaryColor": "#fde68a",
+      "tone": "warm,local,craft",
+      "assets": [
+        "hero",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Common Ground",
+      "industry": "Community cooperative",
+      "primaryColor": "#047857",
+      "secondaryColor": "#d1fae5",
+      "tone": "community,natural,welcoming",
+      "assets": [
+        "logo",
+        "hero",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Aster Grand",
+      "industry": "Hotel membership",
+      "primaryColor": "#2563eb",
+      "secondaryColor": "#f43f5e",
+      "tone": "premium,calm,hospitable",
+      "assets": [
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Saffron Yard",
+      "industry": "Restaurant loyalty",
+      "primaryColor": "#e11d48",
+      "secondaryColor": "#111827",
+      "tone": "warm,social,premium",
+      "assets": [
+        "logo",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Quiet Tide",
+      "industry": "Spa membership",
+      "primaryColor": "#111827",
+      "secondaryColor": "#ef4444",
+      "tone": "calm,natural,premium",
+      "assets": [
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Copper Kettle",
+      "industry": "Coffee loyalty",
+      "primaryColor": "#7c3aed",
+      "secondaryColor": "#06b6d4",
+      "tone": "warm,local,craft",
+      "assets": [
+        "logo",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Northside Pets",
+      "industry": "Pet care membership",
+      "primaryColor": "#0f172a",
+      "secondaryColor": "#eab308",
+      "tone": "friendly,playful,trusted",
+      "assets": [
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Quiet Frame",
+      "industry": "Art gallery",
+      "primaryColor": "#15803d",
+      "secondaryColor": "#fbbf24",
+      "tone": "creative,editorial,cultural",
+      "assets": [
+        "logo",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Alder Society",
+      "industry": "Alumni association",
+      "primaryColor": "#9a3412",
+      "secondaryColor": "#f5f5f4",
+      "tone": "academic,trusted,community",
+      "assets": [
+        "logo",
+        "hero"
+      ],
+      "industryFields": [
+        "studentId",
+        "course",
+        "expiryDate"
+      ]
+    },
+    {
+      "businessName": "Apex Motion",
+      "industry": "Fitness club",
+      "primaryColor": "#991b1b",
+      "secondaryColor": "#f59e0b",
+      "tone": "bold,athletic,motivating",
+      "assets": [
+        "background"
+      ],
+      "industryFields": [
+        "photo",
+        "tier",
+        "dateJoined"
+      ]
+    },
+    {
+      "businessName": "Neon Circuit",
+      "industry": "Esports club",
+      "primaryColor": "#166534",
+      "secondaryColor": "#e7e5e4",
+      "tone": "cyberpunk,competitive,bold",
+      "assets": [
+        "hero"
+      ],
+      "industryFields": [
+        "photo",
+        "tier",
+        "dateJoined"
+      ]
+    },
+    {
+      "businessName": "Forge Athletics",
+      "industry": "Fitness club",
+      "primaryColor": "#0369a1",
+      "secondaryColor": "#f97316",
+      "tone": "bold,athletic,motivating",
+      "assets": [],
+      "industryFields": [
+        "photo",
+        "tier",
+        "dateJoined"
+      ]
+    },
+    {
+      "businessName": "Little Lanterns",
+      "industry": "Childcare",
+      "primaryColor": "#047857",
+      "secondaryColor": "#d1fae5",
+      "tone": "friendly,playful,trusted",
+      "assets": [
+        "logo",
+        "background"
+      ],
+      "industryFields": [
+        "studentId",
+        "course",
+        "expiryDate"
+      ]
+    },
+    {
+      "businessName": "Paper Lantern",
+      "industry": "Bookstore loyalty",
+      "primaryColor": "#4338ca",
+      "secondaryColor": "#10b981",
+      "tone": "literary,calm,local",
+      "assets": [
+        "hero",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Saint Rowan College",
+      "industry": "University",
+      "primaryColor": "#6d28d9",
+      "secondaryColor": "#22d3ee",
+      "tone": "academic,official,trusted",
+      "assets": [],
+      "industryFields": [
+        "studentId",
+        "course",
+        "expiryDate"
+      ]
+    },
+    {
+      "businessName": "Bench & Byte",
+      "industry": "Makerspace",
+      "primaryColor": "#0d9488",
+      "secondaryColor": "#fb7185",
+      "tone": "practical,creative,industrial",
+      "assets": [
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Common Workshop",
+      "industry": "Makerspace",
+      "primaryColor": "#123c69",
+      "secondaryColor": "#f6c344",
+      "tone": "practical,creative,industrial",
+      "assets": [],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Pulse Night",
+      "industry": "Nightlife event",
+      "primaryColor": "#1d4ed8",
+      "secondaryColor": "#f8fafc",
+      "tone": "vibrant,event,cyberpunk",
+      "assets": [
+        "hero"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Clearwater Swim",
+      "industry": "Aquatic club",
+      "primaryColor": "#7c3f1d",
+      "secondaryColor": "#f2c879",
+      "tone": "athletic,fresh,trusted",
+      "assets": [
+        "logo",
+        "background"
+      ],
+      "industryFields": [
+        "photo",
+        "tier",
+        "dateJoined"
+      ]
+    },
+    {
+      "businessName": "Aster Retreat",
+      "industry": "Spa membership",
+      "primaryColor": "#1e3a8a",
+      "secondaryColor": "#f59e0b",
+      "tone": "calm,natural,premium",
+      "assets": [
+        "logo",
+        "hero"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Atlas Outdoors",
+      "industry": "Outdoor club",
+      "primaryColor": "#171717",
+      "secondaryColor": "#d4af37",
+      "tone": "adventurous,natural,community",
+      "assets": [
+        "logo",
+        "background"
+      ],
+      "industryFields": [
+        "photo",
+        "tier",
+        "dateJoined"
+      ]
+    },
+    {
+      "businessName": "Stillwater House",
+      "industry": "Spa membership",
+      "primaryColor": "#be123c",
+      "secondaryColor": "#fef3c7",
+      "tone": "calm,natural,premium",
+      "assets": [
+        "logo"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Lantern Library",
+      "industry": "Public library",
+      "primaryColor": "#334155",
+      "secondaryColor": "#38bdf8",
+      "tone": "trusted,calm,accessible",
+      "assets": [
+        "logo",
+        "hero"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Mosaic Dance",
+      "industry": "Dance studio",
+      "primaryColor": "#ea580c",
+      "secondaryColor": "#1f2937",
+      "tone": "expressive,playful,energetic",
+      "assets": [
+        "hero",
+        "background"
+      ],
+      "industryFields": [
+        "photo",
+        "tier",
+        "dateJoined"
+      ]
+    },
+    {
+      "businessName": "Northbound Club",
+      "industry": "Travel club",
+      "primaryColor": "#166534",
+      "secondaryColor": "#e7e5e4",
+      "tone": "premium,modern,adventurous",
+      "assets": [],
+      "industryFields": [
+        "photo",
+        "tier",
+        "dateJoined"
+      ]
+    },
+    {
+      "businessName": "Quiet Current",
+      "industry": "Yoga studio",
+      "primaryColor": "#1d4ed8",
+      "secondaryColor": "#f8fafc",
+      "tone": "calm,welcoming,natural",
+      "assets": [
+        "hero",
+        "background"
+      ],
+      "industryFields": [
+        "photo",
+        "tier",
+        "dateJoined"
+      ]
+    },
+    {
+      "businessName": "Alderwick University",
+      "industry": "University",
+      "primaryColor": "#dc2626",
+      "secondaryColor": "#111827",
+      "tone": "academic,official,trusted",
+      "assets": [
+        "hero",
+        "background"
+      ],
+      "industryFields": [
+        "studentId",
+        "course",
+        "expiryDate"
+      ]
+    },
+    {
+      "businessName": "Happy Tails House",
+      "industry": "Pet care membership",
+      "primaryColor": "#9a3412",
+      "secondaryColor": "#f5f5f4",
+      "tone": "friendly,playful,trusted",
+      "assets": [
+        "hero"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Signal Creative",
+      "industry": "Creative agency",
+      "primaryColor": "#7c3aed",
+      "secondaryColor": "#06b6d4",
+      "tone": "creative,editorial,bold",
+      "assets": [
+        "logo",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Lumen Cinema",
+      "industry": "Cinema membership",
+      "primaryColor": "#991b1b",
+      "secondaryColor": "#f59e0b",
+      "tone": "cinematic,premium,dramatic",
+      "assets": [
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Future Circuit",
+      "industry": "Technology conference",
+      "primaryColor": "#111827",
+      "secondaryColor": "#ef4444",
+      "tone": "modern,event,ambitious",
+      "assets": [
+        "logo",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Maison Ember",
+      "industry": "Fine dining",
+      "primaryColor": "#e11d48",
+      "secondaryColor": "#111827",
+      "tone": "luxury,formal,intimate",
+      "assets": [
+        "logo",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Northwick Hotel",
+      "industry": "Hotel membership",
+      "primaryColor": "#123c69",
+      "secondaryColor": "#f6c344",
+      "tone": "premium,calm,hospitable",
+      "assets": [
+        "hero"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Common Page",
+      "industry": "Public library",
+      "primaryColor": "#be123c",
+      "secondaryColor": "#fef3c7",
+      "tone": "trusted,calm,accessible",
+      "assets": [
+        "logo",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Neighbour House",
+      "industry": "Community cooperative",
+      "primaryColor": "#db2777",
+      "secondaryColor": "#facc15",
+      "tone": "community,natural,welcoming",
+      "assets": [
+        "hero"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Cityline Cup",
+      "industry": "Sports event",
+      "primaryColor": "#171717",
+      "secondaryColor": "#d4af37",
+      "tone": "energetic,event,athletic",
+      "assets": [
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Meridian Miles",
+      "industry": "Travel club",
+      "primaryColor": "#be185d",
+      "secondaryColor": "#312e81",
+      "tone": "premium,modern,adventurous",
+      "assets": [
+        "logo",
+        "background"
+      ],
+      "industryFields": [
+        "photo",
+        "tier",
+        "dateJoined"
+      ]
+    },
+    {
+      "businessName": "Build Yard",
+      "industry": "Makerspace",
+      "primaryColor": "#2563eb",
+      "secondaryColor": "#f43f5e",
+      "tone": "practical,creative,industrial",
+      "assets": [
+        "logo"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Blue Current",
+      "industry": "Aquatic club",
+      "primaryColor": "#7c3aed",
+      "secondaryColor": "#06b6d4",
+      "tone": "athletic,fresh,trusted",
+      "assets": [
+        "logo",
+        "hero",
+        "background"
+      ],
+      "industryFields": [
+        "photo",
+        "tier",
+        "dateJoined"
+      ]
+    },
+    {
+      "businessName": "Summit Society",
+      "industry": "Outdoor club",
+      "primaryColor": "#0284c7",
+      "secondaryColor": "#0f172a",
+      "tone": "adventurous,natural,community",
+      "assets": [
+        "background"
+      ],
+      "industryFields": [
+        "photo",
+        "tier",
+        "dateJoined"
+      ]
+    },
+    {
+      "businessName": "Bright Meadow",
+      "industry": "Childcare",
+      "primaryColor": "#db2777",
+      "secondaryColor": "#facc15",
+      "tone": "friendly,playful,trusted",
+      "assets": [
+        "hero",
+        "background"
+      ],
+      "industryFields": [
+        "studentId",
+        "course",
+        "expiryDate"
+      ]
+    },
+    {
+      "businessName": "Meadow Companions",
+      "industry": "Pet care membership",
+      "primaryColor": "#b45309",
+      "secondaryColor": "#1f2937",
+      "tone": "friendly,playful,trusted",
+      "assets": [],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Northbound Books",
+      "industry": "Bookstore loyalty",
+      "primaryColor": "#171717",
+      "secondaryColor": "#d4af37",
+      "tone": "literary,calm,local",
+      "assets": [
+        "logo",
+        "hero",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Northhaven Graduates",
+      "industry": "Alumni association",
+      "primaryColor": "#0f172a",
+      "secondaryColor": "#eab308",
+      "tone": "academic,trusted,community",
+      "assets": [
+        "logo",
+        "background"
+      ],
+      "industryFields": [
+        "studentId",
+        "course",
+        "expiryDate"
+      ]
+    },
+    {
+      "businessName": "The Meridian",
+      "industry": "Hotel membership",
+      "primaryColor": "#0369a1",
+      "secondaryColor": "#f97316",
+      "tone": "premium,calm,hospitable",
+      "assets": [
+        "hero",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Northhaven Institute",
+      "industry": "University",
+      "primaryColor": "#db2777",
+      "secondaryColor": "#facc15",
+      "tone": "academic,official,trusted",
+      "assets": [
+        "hero"
+      ],
+      "industryFields": [
+        "studentId",
+        "course",
+        "expiryDate"
+      ]
+    },
+    {
+      "businessName": "Northwood Club",
+      "industry": "Outdoor club",
+      "primaryColor": "#0f766e",
+      "secondaryColor": "#f97316",
+      "tone": "adventurous,natural,community",
+      "assets": [
+        "logo"
+      ],
+      "industryFields": [
+        "photo",
+        "tier",
+        "dateJoined"
+      ]
+    },
+    {
+      "businessName": "Form & Field",
+      "industry": "Creative agency",
+      "primaryColor": "#365314",
+      "secondaryColor": "#fde68a",
+      "tone": "creative,editorial,bold",
+      "assets": [
+        "hero",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Northstar Labs",
+      "industry": "Coworking space",
+      "primaryColor": "#123c69",
+      "secondaryColor": "#f6c344",
+      "tone": "professional,modern,focused",
+      "assets": [
+        "hero",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Form Studio",
+      "industry": "Fashion retail",
+      "primaryColor": "#334155",
+      "secondaryColor": "#38bdf8",
+      "tone": "modern,editorial,premium",
+      "assets": [
+        "logo",
+        "hero"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Metro Run",
+      "industry": "Sports event",
+      "primaryColor": "#0284c7",
+      "secondaryColor": "#0f172a",
+      "tone": "energetic,event,athletic",
+      "assets": [
+        "logo",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Orbit Esports",
+      "industry": "Esports club",
+      "primaryColor": "#7c3aed",
+      "secondaryColor": "#06b6d4",
+      "tone": "cyberpunk,competitive,bold",
+      "assets": [
+        "background"
+      ],
+      "industryFields": [
+        "photo",
+        "tier",
+        "dateJoined"
+      ]
+    },
+    {
+      "businessName": "Assembly Rooms",
+      "industry": "Coworking space",
+      "primaryColor": "#2563eb",
+      "secondaryColor": "#f43f5e",
+      "tone": "professional,modern,focused",
+      "assets": [
+        "logo",
+        "hero",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "North Pier Coffee",
+      "industry": "Coffee loyalty",
+      "primaryColor": "#166534",
+      "secondaryColor": "#e7e5e4",
+      "tone": "warm,local,craft",
+      "assets": [
+        "logo",
+        "hero"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Riverstone Museum",
+      "industry": "Museum",
+      "primaryColor": "#365314",
+      "secondaryColor": "#fde68a",
+      "tone": "cultural,formal,curious",
+      "assets": [
+        "hero"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Vantage Workspace",
+      "industry": "Coworking space",
+      "primaryColor": "#0d9488",
+      "secondaryColor": "#fb7185",
+      "tone": "professional,modern,focused",
+      "assets": [
+        "logo",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Foundry Museum",
+      "industry": "Museum",
+      "primaryColor": "#166534",
+      "secondaryColor": "#e7e5e4",
+      "tone": "cultural,formal,curious",
+      "assets": [
+        "hero",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Civic Professionals",
+      "industry": "Professional association",
+      "primaryColor": "#0d9488",
+      "secondaryColor": "#fb7185",
+      "tone": "professional,official,trusted",
+      "assets": [
+        "logo",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Inkline Gallery",
+      "industry": "Art gallery",
+      "primaryColor": "#dc2626",
+      "secondaryColor": "#111827",
+      "tone": "creative,editorial,cultural",
+      "assets": [],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Brightstep Studio",
+      "industry": "Dance studio",
+      "primaryColor": "#1e3a8a",
+      "secondaryColor": "#f59e0b",
+      "tone": "expressive,playful,energetic",
+      "assets": [],
+      "industryFields": [
+        "photo",
+        "tier",
+        "dateJoined"
+      ]
+    },
+    {
+      "businessName": "Kinetic House",
+      "industry": "Dance studio",
+      "primaryColor": "#111827",
+      "secondaryColor": "#ef4444",
+      "tone": "expressive,playful,energetic",
+      "assets": [
+        "logo",
+        "hero",
+        "background"
+      ],
+      "industryFields": [
+        "photo",
+        "tier",
+        "dateJoined"
+      ]
+    },
+    {
+      "businessName": "Morning Loaf",
+      "industry": "Bakery loyalty",
+      "primaryColor": "#0f766e",
+      "secondaryColor": "#f97316",
+      "tone": "friendly,warm,local",
+      "assets": [
+        "logo"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Salt & Grove",
+      "industry": "Restaurant loyalty",
+      "primaryColor": "#0f172a",
+      "secondaryColor": "#eab308",
+      "tone": "warm,social,premium",
+      "assets": [
+        "logo",
+        "hero",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Zero Hour League",
+      "industry": "Esports club",
+      "primaryColor": "#365314",
+      "secondaryColor": "#fde68a",
+      "tone": "cyberpunk,competitive,bold",
+      "assets": [],
+      "industryFields": [
+        "photo",
+        "tier",
+        "dateJoined"
+      ]
+    },
+    {
+      "businessName": "Pixel Vanguard",
+      "industry": "Gaming community",
+      "primaryColor": "#0284c7",
+      "secondaryColor": "#0f172a",
+      "tone": "playful,digital,competitive",
+      "assets": [
+        "logo",
+        "hero",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Trail & Tide",
+      "industry": "Outdoor club",
+      "primaryColor": "#075985",
+      "secondaryColor": "#e0f2fe",
+      "tone": "adventurous,natural,community",
+      "assets": [],
+      "industryFields": [
+        "photo",
+        "tier",
+        "dateJoined"
+      ]
+    },
+    {
+      "businessName": "Forge Makers",
+      "industry": "Makerspace",
+      "primaryColor": "#991b1b",
+      "secondaryColor": "#f59e0b",
+      "tone": "practical,creative,industrial",
+      "assets": [
+        "logo",
+        "hero",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Civic Shelf",
+      "industry": "Public library",
+      "primaryColor": "#ea580c",
+      "secondaryColor": "#1f2937",
+      "tone": "trusted,calm,accessible",
+      "assets": [],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Little Hearth",
+      "industry": "Bakery loyalty",
+      "primaryColor": "#171717",
+      "secondaryColor": "#d4af37",
+      "tone": "friendly,warm,local",
+      "assets": [
+        "logo",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Meridian Council",
+      "industry": "Professional association",
+      "primaryColor": "#991b1b",
+      "secondaryColor": "#f59e0b",
+      "tone": "professional,official,trusted",
+      "assets": [
+        "logo"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Nocturne Table",
+      "industry": "Fine dining",
+      "primaryColor": "#1d4ed8",
+      "secondaryColor": "#f8fafc",
+      "tone": "luxury,formal,intimate",
+      "assets": [
+        "logo",
+        "hero"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Northline Fitness",
+      "industry": "Fitness club",
+      "primaryColor": "#2563eb",
+      "secondaryColor": "#f43f5e",
+      "tone": "bold,athletic,motivating",
+      "assets": [
+        "logo",
+        "background"
+      ],
+      "industryFields": [
+        "photo",
+        "tier",
+        "dateJoined"
+      ]
+    },
+    {
+      "businessName": "Open Sky Society",
+      "industry": "Travel club",
+      "primaryColor": "#365314",
+      "secondaryColor": "#fde68a",
+      "tone": "premium,modern,adventurous",
+      "assets": [
+        "logo",
+        "hero"
+      ],
+      "industryFields": [
+        "photo",
+        "tier",
+        "dateJoined"
+      ]
+    },
+    {
+      "businessName": "Neon Realm",
+      "industry": "Gaming community",
+      "primaryColor": "#0f766e",
+      "secondaryColor": "#f97316",
+      "tone": "playful,digital,competitive",
+      "assets": [
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Neon Social",
+      "industry": "Nightlife event",
+      "primaryColor": "#b45309",
+      "secondaryColor": "#1f2937",
+      "tone": "vibrant,event,cyberpunk",
+      "assets": [
+        "logo",
+        "hero"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Common Desk Studio",
+      "industry": "Coworking space",
+      "primaryColor": "#0369a1",
+      "secondaryColor": "#f97316",
+      "tone": "professional,modern,focused",
+      "assets": [
+        "logo",
+        "hero"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Checkpoint Society",
+      "industry": "Gaming community",
+      "primaryColor": "#4338ca",
+      "secondaryColor": "#10b981",
+      "tone": "playful,digital,competitive",
+      "assets": [],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Juniper Pet Club",
+      "industry": "Pet care membership",
+      "primaryColor": "#e11d48",
+      "secondaryColor": "#111827",
+      "tone": "friendly,playful,trusted",
+      "assets": [
+        "logo",
+        "hero",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "The Atlas Archive",
+      "industry": "Museum",
+      "primaryColor": "#7c3aed",
+      "secondaryColor": "#06b6d4",
+      "tone": "cultural,formal,curious",
+      "assets": [
+        "logo",
+        "hero",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Lumen Works",
+      "industry": "Coworking space",
+      "primaryColor": "#991b1b",
+      "secondaryColor": "#f59e0b",
+      "tone": "professional,modern,focused",
+      "assets": [
+        "logo"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Signal Foundry",
+      "industry": "Startup network",
+      "primaryColor": "#171717",
+      "secondaryColor": "#d4af37",
+      "tone": "ambitious,technology,community",
+      "assets": [
+        "logo"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "The Resonant Room",
+      "industry": "Music venue",
+      "primaryColor": "#db2777",
+      "secondaryColor": "#facc15",
+      "tone": "creative,event,energetic",
+      "assets": [],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Verdant Spa",
+      "industry": "Spa membership",
+      "primaryColor": "#ea580c",
+      "secondaryColor": "#1f2937",
+      "tone": "calm,natural,premium",
+      "assets": [
+        "hero"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Mosaic House",
+      "industry": "Art gallery",
+      "primaryColor": "#047857",
+      "secondaryColor": "#d1fae5",
+      "tone": "creative,editorial,cultural",
+      "assets": [
+        "logo"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Kindred Paws",
+      "industry": "Pet care membership",
+      "primaryColor": "#1d4ed8",
+      "secondaryColor": "#f8fafc",
+      "tone": "friendly,playful,trusted",
+      "assets": [
+        "hero",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Juniper Cup",
+      "industry": "Coffee loyalty",
+      "primaryColor": "#7c3f1d",
+      "secondaryColor": "#f2c879",
+      "tone": "warm,local,craft",
+      "assets": [
+        "logo"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Kindred Crumb",
+      "industry": "Bakery loyalty",
+      "primaryColor": "#0284c7",
+      "secondaryColor": "#0f172a",
+      "tone": "friendly,warm,local",
+      "assets": [
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Vantage Air",
+      "industry": "Travel club",
+      "primaryColor": "#7c3f1d",
+      "secondaryColor": "#f2c879",
+      "tone": "premium,modern,adventurous",
+      "assets": [
+        "background"
+      ],
+      "industryFields": [
+        "photo",
+        "tier",
+        "dateJoined"
+      ]
+    },
+    {
+      "businessName": "Electric Room",
+      "industry": "Nightlife event",
+      "primaryColor": "#9a3412",
+      "secondaryColor": "#f5f5f4",
+      "tone": "vibrant,event,cyberpunk",
+      "assets": [],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Arcade Union",
+      "industry": "Gaming community",
+      "primaryColor": "#171717",
+      "secondaryColor": "#d4af37",
+      "tone": "playful,digital,competitive",
+      "assets": [
+        "logo"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Redwood Co-op",
+      "industry": "Community cooperative",
+      "primaryColor": "#dc2626",
+      "secondaryColor": "#111827",
+      "tone": "community,natural,welcoming",
+      "assets": [
+        "hero",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Westmere University",
+      "industry": "University",
+      "primaryColor": "#15803d",
+      "secondaryColor": "#fbbf24",
+      "tone": "academic,official,trusted",
+      "assets": [
+        "background"
+      ],
+      "industryFields": [
+        "studentId",
+        "course",
+        "expiryDate"
+      ]
+    },
+    {
+      "businessName": "Solstice Studio",
+      "industry": "Yoga studio",
+      "primaryColor": "#0f172a",
+      "secondaryColor": "#eab308",
+      "tone": "calm,welcoming,natural",
+      "assets": [
+        "background"
+      ],
+      "industryFields": [
+        "photo",
+        "tier",
+        "dateJoined"
+      ]
+    },
+    {
+      "businessName": "Afterdark Assembly",
+      "industry": "Nightlife event",
+      "primaryColor": "#e11d48",
+      "secondaryColor": "#111827",
+      "tone": "vibrant,event,cyberpunk",
+      "assets": [
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Harbour Players",
+      "industry": "Theatre company",
+      "primaryColor": "#15803d",
+      "secondaryColor": "#fbbf24",
+      "tone": "dramatic,cultural,creative",
+      "assets": [
+        "logo"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Frequency House",
+      "industry": "Music venue",
+      "primaryColor": "#15803d",
+      "secondaryColor": "#fbbf24",
+      "tone": "creative,event,energetic",
+      "assets": [
+        "logo"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Summit Open",
+      "industry": "Sports event",
+      "primaryColor": "#0f766e",
+      "secondaryColor": "#f97316",
+      "tone": "energetic,event,athletic",
+      "assets": [
+        "logo",
+        "hero",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Meridian Museum",
+      "industry": "Museum",
+      "primaryColor": "#7c3f1d",
+      "secondaryColor": "#f2c879",
+      "tone": "cultural,formal,curious",
+      "assets": [
+        "logo",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Kingsmere College",
+      "industry": "University",
+      "primaryColor": "#047857",
+      "secondaryColor": "#d1fae5",
+      "tone": "academic,official,trusted",
+      "assets": [
+        "logo",
+        "hero",
+        "background"
+      ],
+      "industryFields": [
+        "studentId",
+        "course",
+        "expiryDate"
+      ]
+    },
+    {
+      "businessName": "Lantern Theatre",
+      "industry": "Theatre company",
+      "primaryColor": "#dc2626",
+      "secondaryColor": "#111827",
+      "tone": "dramatic,cultural,creative",
+      "assets": [
+        "hero"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Common Plate",
+      "industry": "Restaurant loyalty",
+      "primaryColor": "#9a3412",
+      "secondaryColor": "#f5f5f4",
+      "tone": "warm,social,premium",
+      "assets": [
+        "hero",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Open Ridge",
+      "industry": "Outdoor club",
+      "primaryColor": "#4338ca",
+      "secondaryColor": "#10b981",
+      "tone": "adventurous,natural,community",
+      "assets": [
+        "logo",
+        "hero"
+      ],
+      "industryFields": [
+        "photo",
+        "tier",
+        "dateJoined"
+      ]
+    },
+    {
+      "businessName": "Orbit Guild",
+      "industry": "Gaming community",
+      "primaryColor": "#075985",
+      "secondaryColor": "#e0f2fe",
+      "tone": "playful,digital,competitive",
+      "assets": [
+        "hero"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Margin & Co",
+      "industry": "Bookstore loyalty",
+      "primaryColor": "#075985",
+      "secondaryColor": "#e0f2fe",
+      "tone": "literary,calm,local",
+      "assets": [
+        "logo",
+        "hero"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "The Fourth Wall",
+      "industry": "Theatre company",
+      "primaryColor": "#db2777",
+      "secondaryColor": "#facc15",
+      "tone": "dramatic,cultural,creative",
+      "assets": [],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Silver Frame",
+      "industry": "Cinema membership",
+      "primaryColor": "#0369a1",
+      "secondaryColor": "#f97316",
+      "tone": "cinematic,premium,dramatic",
+      "assets": [],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Velocity Arena",
+      "industry": "Esports club",
+      "primaryColor": "#7c3f1d",
+      "secondaryColor": "#f2c879",
+      "tone": "cyberpunk,competitive,bold",
+      "assets": [
+        "logo",
+        "hero",
+        "background"
+      ],
+      "industryFields": [
+        "photo",
+        "tier",
+        "dateJoined"
+      ]
+    },
+    {
+      "businessName": "Thread Society",
+      "industry": "Fashion retail",
+      "primaryColor": "#1e3a8a",
+      "secondaryColor": "#f59e0b",
+      "tone": "modern,editorial,premium",
+      "assets": [
+        "hero",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Echo Assembly",
+      "industry": "Music venue",
+      "primaryColor": "#047857",
+      "secondaryColor": "#d1fae5",
+      "tone": "creative,event,energetic",
+      "assets": [
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Daybreak Nursery",
+      "industry": "Childcare",
+      "primaryColor": "#dc2626",
+      "secondaryColor": "#111827",
+      "tone": "friendly,playful,trusted",
+      "assets": [
+        "logo",
+        "hero"
+      ],
+      "industryFields": [
+        "studentId",
+        "course",
+        "expiryDate"
+      ]
+    },
+    {
+      "businessName": "Future Founders",
+      "industry": "Startup network",
+      "primaryColor": "#0284c7",
+      "secondaryColor": "#0f172a",
+      "tone": "ambitious,technology,community",
+      "assets": [
+        "logo",
+        "hero",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Launch Circle",
+      "industry": "Startup network",
+      "primaryColor": "#075985",
+      "secondaryColor": "#e0f2fe",
+      "tone": "ambitious,technology,community",
+      "assets": [
+        "hero"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Cloudline Yoga",
+      "industry": "Yoga studio",
+      "primaryColor": "#e11d48",
+      "secondaryColor": "#111827",
+      "tone": "calm,welcoming,natural",
+      "assets": [
+        "logo",
+        "hero",
+        "background"
+      ],
+      "industryFields": [
+        "photo",
+        "tier",
+        "dateJoined"
+      ]
+    },
+    {
+      "businessName": "Oak & Linen",
+      "industry": "Fashion retail",
+      "primaryColor": "#ea580c",
+      "secondaryColor": "#1f2937",
+      "tone": "modern,editorial,premium",
+      "assets": [],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Craftline Lab",
+      "industry": "Makerspace",
+      "primaryColor": "#0369a1",
+      "secondaryColor": "#f97316",
+      "tone": "practical,creative,industrial",
+      "assets": [
+        "hero"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Aster Wardrobe",
+      "industry": "Fashion retail",
+      "primaryColor": "#be123c",
+      "secondaryColor": "#fef3c7",
+      "tone": "modern,editorial,premium",
+      "assets": [
+        "logo",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Midnight Signal",
+      "industry": "Nightlife event",
+      "primaryColor": "#0f172a",
+      "secondaryColor": "#eab308",
+      "tone": "vibrant,event,cyberpunk",
+      "assets": [
+        "logo"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Black Laurel",
+      "industry": "Fine dining",
+      "primaryColor": "#0f172a",
+      "secondaryColor": "#eab308",
+      "tone": "luxury,formal,intimate",
+      "assets": [
+        "logo",
+        "hero",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Ember Table",
+      "industry": "Restaurant loyalty",
+      "primaryColor": "#1d4ed8",
+      "secondaryColor": "#f8fafc",
+      "tone": "warm,social,premium",
+      "assets": [
+        "logo",
+        "hero"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Common Chapter",
+      "industry": "Bookstore loyalty",
+      "primaryColor": "#0f766e",
+      "secondaryColor": "#f97316",
+      "tone": "literary,calm,local",
+      "assets": [
+        "logo",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Golden Hour Hotel",
+      "industry": "Hotel membership",
+      "primaryColor": "#991b1b",
+      "secondaryColor": "#f59e0b",
+      "tone": "premium,calm,hospitable",
+      "assets": [
+        "logo",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Common Standard",
+      "industry": "Professional association",
+      "primaryColor": "#2563eb",
+      "secondaryColor": "#f43f5e",
+      "tone": "professional,official,trusted",
+      "assets": [
+        "logo",
+        "hero",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Venture North",
+      "industry": "Startup network",
+      "primaryColor": "#0f766e",
+      "secondaryColor": "#f97316",
+      "tone": "ambitious,technology,community",
+      "assets": [
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Velocity Games",
+      "industry": "Sports event",
+      "primaryColor": "#075985",
+      "secondaryColor": "#e0f2fe",
+      "tone": "energetic,event,athletic",
+      "assets": [
+        "hero",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Civic Circle",
+      "industry": "Community cooperative",
+      "primaryColor": "#15803d",
+      "secondaryColor": "#fbbf24",
+      "tone": "community,natural,welcoming",
+      "assets": [
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    }
+  ],
+  "validation": [
+    {
+      "businessName": "Kindred Kids",
+      "industry": "Childcare",
+      "primaryColor": "#15803d",
+      "secondaryColor": "#fbbf24",
+      "tone": "friendly,playful,trusted",
+      "assets": [
+        "logo",
+        "hero",
+        "background"
+      ],
+      "industryFields": [
+        "studentId",
+        "course",
+        "expiryDate"
+      ]
+    },
+    {
+      "businessName": "Signal Hall",
+      "industry": "Music venue",
+      "primaryColor": "#dc2626",
+      "secondaryColor": "#111827",
+      "tone": "creative,event,energetic",
+      "assets": [
+        "hero"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Northshore Swim",
+      "industry": "Aquatic club",
+      "primaryColor": "#365314",
+      "secondaryColor": "#fde68a",
+      "tone": "athletic,fresh,trusted",
+      "assets": [
+        "hero"
+      ],
+      "industryFields": [
+        "photo",
+        "tier",
+        "dateJoined"
+      ]
+    },
+    {
+      "businessName": "Morrow Studio",
+      "industry": "Creative agency",
+      "primaryColor": "#166534",
+      "secondaryColor": "#e7e5e4",
+      "tone": "creative,editorial,bold",
+      "assets": [
+        "logo",
+        "hero"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Riverbend Library",
+      "industry": "Public library",
+      "primaryColor": "#111827",
+      "secondaryColor": "#ef4444",
+      "tone": "trusted,calm,accessible",
+      "assets": [
+        "logo"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Northstar Screens",
+      "industry": "Cinema membership",
+      "primaryColor": "#0d9488",
+      "secondaryColor": "#fb7185",
+      "tone": "cinematic,premium,dramatic",
+      "assets": [
+        "logo"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "First Mile Network",
+      "industry": "Startup network",
+      "primaryColor": "#4338ca",
+      "secondaryColor": "#10b981",
+      "tone": "ambitious,technology,community",
+      "assets": [],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Tidal Club",
+      "industry": "Aquatic club",
+      "primaryColor": "#be185d",
+      "secondaryColor": "#312e81",
+      "tone": "athletic,fresh,trusted",
+      "assets": [
+        "background"
+      ],
+      "industryFields": [
+        "photo",
+        "tier",
+        "dateJoined"
+      ]
+    },
+    {
+      "businessName": "Riverbank Kitchen",
+      "industry": "Restaurant loyalty",
+      "primaryColor": "#b45309",
+      "secondaryColor": "#1f2937",
+      "tone": "warm,social,premium",
+      "assets": [
+        "hero"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Lumen Arts",
+      "industry": "Art gallery",
+      "primaryColor": "#6d28d9",
+      "secondaryColor": "#22d3ee",
+      "tone": "creative,editorial,cultural",
+      "assets": [
+        "hero",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Atlas Journey",
+      "industry": "Travel club",
+      "primaryColor": "#7c3aed",
+      "secondaryColor": "#06b6d4",
+      "tone": "premium,modern,adventurous",
+      "assets": [
+        "logo"
+      ],
+      "industryFields": [
+        "photo",
+        "tier",
+        "dateJoined"
+      ]
+    },
+    {
+      "businessName": "Meridian Alumni",
+      "industry": "Alumni association",
+      "primaryColor": "#b45309",
+      "secondaryColor": "#1f2937",
+      "tone": "academic,trusted,community",
+      "assets": [
+        "hero",
+        "background"
+      ],
+      "industryFields": [
+        "studentId",
+        "course",
+        "expiryDate"
+      ]
+    },
+    {
+      "businessName": "Beacon Alumni",
+      "industry": "Alumni association",
+      "primaryColor": "#1d4ed8",
+      "secondaryColor": "#f8fafc",
+      "tone": "academic,trusted,community",
+      "assets": [],
+      "industryFields": [
+        "studentId",
+        "course",
+        "expiryDate"
+      ]
+    },
+    {
+      "businessName": "Apex Institute",
+      "industry": "Professional association",
+      "primaryColor": "#123c69",
+      "secondaryColor": "#f6c344",
+      "tone": "professional,official,trusted",
+      "assets": [
+        "hero",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Blue Note Yard",
+      "industry": "Music venue",
+      "primaryColor": "#6d28d9",
+      "secondaryColor": "#22d3ee",
+      "tone": "creative,event,energetic",
+      "assets": [
+        "logo",
+        "hero"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Northline Apparel",
+      "industry": "Fashion retail",
+      "primaryColor": "#111827",
+      "secondaryColor": "#ef4444",
+      "tone": "modern,editorial,premium",
+      "assets": [
+        "logo"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Atlas Tech Forum",
+      "industry": "Technology conference",
+      "primaryColor": "#ea580c",
+      "secondaryColor": "#1f2937",
+      "tone": "modern,event,ambitious",
+      "assets": [
+        "logo",
+        "hero"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Vesper House",
+      "industry": "Hotel membership",
+      "primaryColor": "#0d9488",
+      "secondaryColor": "#fb7185",
+      "tone": "premium,calm,hospitable",
+      "assets": [
+        "logo",
+        "hero",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Morrow Bean",
+      "industry": "Coffee loyalty",
+      "primaryColor": "#be185d",
+      "secondaryColor": "#312e81",
+      "tone": "warm,local,craft",
+      "assets": [
+        "logo",
+        "hero",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Juniper Wellness",
+      "industry": "Spa membership",
+      "primaryColor": "#334155",
+      "secondaryColor": "#38bdf8",
+      "tone": "calm,natural,premium",
+      "assets": [],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Afterlight Cinema",
+      "industry": "Cinema membership",
+      "primaryColor": "#123c69",
+      "secondaryColor": "#f6c344",
+      "tone": "cinematic,premium,dramatic",
+      "assets": [
+        "logo",
+        "hero"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Converge Labs",
+      "industry": "Technology conference",
+      "primaryColor": "#1e3a8a",
+      "secondaryColor": "#f59e0b",
+      "tone": "modern,event,ambitious",
+      "assets": [
+        "hero"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Flour House",
+      "industry": "Bakery loyalty",
+      "primaryColor": "#4338ca",
+      "secondaryColor": "#10b981",
+      "tone": "friendly,warm,local",
+      "assets": [
+        "logo",
+        "hero"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "The Picture House",
+      "industry": "Cinema membership",
+      "primaryColor": "#2563eb",
+      "secondaryColor": "#f43f5e",
+      "tone": "cinematic,premium,dramatic",
+      "assets": [
+        "logo",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Northline Design",
+      "industry": "Creative agency",
+      "primaryColor": "#be185d",
+      "secondaryColor": "#312e81",
+      "tone": "creative,editorial,bold",
+      "assets": [
+        "logo",
+        "hero",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    }
+  ],
+  "test": [
+    {
+      "businessName": "Signal Summit",
+      "industry": "Technology conference",
+      "primaryColor": "#334155",
+      "secondaryColor": "#38bdf8",
+      "tone": "modern,event,ambitious",
+      "assets": [
+        "hero",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Pulse Yard",
+      "industry": "Fitness club",
+      "primaryColor": "#123c69",
+      "secondaryColor": "#f6c344",
+      "tone": "bold,athletic,motivating",
+      "assets": [
+        "logo",
+        "hero"
+      ],
+      "industryFields": [
+        "photo",
+        "tier",
+        "dateJoined"
+      ]
+    },
+    {
+      "businessName": "Honey & Rye",
+      "industry": "Bakery loyalty",
+      "primaryColor": "#075985",
+      "secondaryColor": "#e0f2fe",
+      "tone": "friendly,warm,local",
+      "assets": [],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Summit Strength",
+      "industry": "Fitness club",
+      "primaryColor": "#0d9488",
+      "secondaryColor": "#fb7185",
+      "tone": "bold,athletic,motivating",
+      "assets": [
+        "logo"
+      ],
+      "industryFields": [
+        "photo",
+        "tier",
+        "dateJoined"
+      ]
+    },
+    {
+      "businessName": "Nova Build",
+      "industry": "Technology conference",
+      "primaryColor": "#be123c",
+      "secondaryColor": "#fef3c7",
+      "tone": "modern,event,ambitious",
+      "assets": [
+        "logo",
+        "hero",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Motion Room",
+      "industry": "Dance studio",
+      "primaryColor": "#be123c",
+      "secondaryColor": "#fef3c7",
+      "tone": "expressive,playful,energetic",
+      "assets": [
+        "background"
+      ],
+      "industryFields": [
+        "photo",
+        "tier",
+        "dateJoined"
+      ]
+    },
+    {
+      "businessName": "Ember Theatre",
+      "industry": "Theatre company",
+      "primaryColor": "#6d28d9",
+      "secondaryColor": "#22d3ee",
+      "tone": "dramatic,cultural,creative",
+      "assets": [
+        "logo",
+        "hero"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Vesper Dining",
+      "industry": "Fine dining",
+      "primaryColor": "#b45309",
+      "secondaryColor": "#1f2937",
+      "tone": "luxury,formal,intimate",
+      "assets": [
+        "hero"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Still Form",
+      "industry": "Yoga studio",
+      "primaryColor": "#9a3412",
+      "secondaryColor": "#f5f5f4",
+      "tone": "calm,welcoming,natural",
+      "assets": [
+        "hero"
+      ],
+      "industryFields": [
+        "photo",
+        "tier",
+        "dateJoined"
+      ]
+    },
+    {
+      "businessName": "Canvas North",
+      "industry": "Art gallery",
+      "primaryColor": "#db2777",
+      "secondaryColor": "#facc15",
+      "tone": "creative,editorial,cultural",
+      "assets": [
+        "logo",
+        "hero"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Harbour Marathon",
+      "industry": "Sports event",
+      "primaryColor": "#4338ca",
+      "secondaryColor": "#10b981",
+      "tone": "energetic,event,athletic",
+      "assets": [
+        "hero"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Rhythm Assembly",
+      "industry": "Dance studio",
+      "primaryColor": "#334155",
+      "secondaryColor": "#38bdf8",
+      "tone": "expressive,playful,energetic",
+      "assets": [
+        "hero"
+      ],
+      "industryFields": [
+        "photo",
+        "tier",
+        "dateJoined"
+      ]
+    },
+    {
+      "businessName": "Canvas Union",
+      "industry": "Creative agency",
+      "primaryColor": "#7c3f1d",
+      "secondaryColor": "#f2c879",
+      "tone": "creative,editorial,bold",
+      "assets": [
+        "logo"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Juniper Books",
+      "industry": "Bookstore loyalty",
+      "primaryColor": "#0284c7",
+      "secondaryColor": "#0f172a",
+      "tone": "literary,calm,local",
+      "assets": [
+        "logo"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    },
+    {
+      "businessName": "Kindred Collective",
+      "industry": "Community cooperative",
+      "primaryColor": "#6d28d9",
+      "secondaryColor": "#22d3ee",
+      "tone": "community,natural,welcoming",
+      "assets": [],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "North Gallery",
+      "industry": "Museum",
+      "primaryColor": "#be185d",
+      "secondaryColor": "#312e81",
+      "tone": "cultural,formal,curious",
+      "assets": [
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Open Palm",
+      "industry": "Yoga studio",
+      "primaryColor": "#b45309",
+      "secondaryColor": "#1f2937",
+      "tone": "calm,welcoming,natural",
+      "assets": [],
+      "industryFields": [
+        "photo",
+        "tier",
+        "dateJoined"
+      ]
+    },
+    {
+      "businessName": "Harbour Aquatics",
+      "industry": "Aquatic club",
+      "primaryColor": "#166534",
+      "secondaryColor": "#e7e5e4",
+      "tone": "athletic,fresh,trusted",
+      "assets": [
+        "hero",
+        "background"
+      ],
+      "industryFields": [
+        "photo",
+        "tier",
+        "dateJoined"
+      ]
+    },
+    {
+      "businessName": "Hyperlane Club",
+      "industry": "Esports club",
+      "primaryColor": "#be185d",
+      "secondaryColor": "#312e81",
+      "tone": "cyberpunk,competitive,bold",
+      "assets": [
+        "logo"
+      ],
+      "industryFields": [
+        "photo",
+        "tier",
+        "dateJoined"
+      ]
+    },
+    {
+      "businessName": "Mosaic Stage",
+      "industry": "Theatre company",
+      "primaryColor": "#047857",
+      "secondaryColor": "#d1fae5",
+      "tone": "dramatic,cultural,creative",
+      "assets": [
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Northstar Association",
+      "industry": "Professional association",
+      "primaryColor": "#0369a1",
+      "secondaryColor": "#f97316",
+      "tone": "professional,official,trusted",
+      "assets": [
+        "logo",
+        "hero"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "Westbridge Alumni",
+      "industry": "Alumni association",
+      "primaryColor": "#e11d48",
+      "secondaryColor": "#111827",
+      "tone": "academic,trusted,community",
+      "assets": [
+        "logo"
+      ],
+      "industryFields": [
+        "studentId",
+        "course",
+        "expiryDate"
+      ]
+    },
+    {
+      "businessName": "Acorn House",
+      "industry": "Childcare",
+      "primaryColor": "#6d28d9",
+      "secondaryColor": "#22d3ee",
+      "tone": "friendly,playful,trusted",
+      "assets": [
+        "hero"
+      ],
+      "industryFields": [
+        "studentId",
+        "course",
+        "expiryDate"
+      ]
+    },
+    {
+      "businessName": "Harbour Reading Room",
+      "industry": "Public library",
+      "primaryColor": "#1e3a8a",
+      "secondaryColor": "#f59e0b",
+      "tone": "trusted,calm,accessible",
+      "assets": [
+        "hero",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "email"
+      ]
+    },
+    {
+      "businessName": "The Gilded Fig",
+      "industry": "Fine dining",
+      "primaryColor": "#9a3412",
+      "secondaryColor": "#f5f5f4",
+      "tone": "luxury,formal,intimate",
+      "assets": [
+        "hero",
+        "background"
+      ],
+      "industryFields": [
+        "tier",
+        "loyaltyPoints"
+      ]
+    }
+  ]
+}

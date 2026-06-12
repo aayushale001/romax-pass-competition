@@ -1,0 +1,143 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "description",
+    "mood",
+    "requiredFields",
+    "designTokens"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 64
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 70
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 160
+    },
+    "mood": {
+      "type": "string",
+      "enum": [
+        "official",
+        "minimal",
+        "premium",
+        "playful",
+        "creative",
+        "cyberpunk",
+        "academic",
+        "luxury",
+        "event",
+        "identity"
+      ]
+    },
+    "requiredFields": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 8,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": [
+          "name",
+          "photo",
+          "email",
+          "phone",
+          "memberId",
+          "tier",
+          "expiryDate",
+          "dateJoined",
+          "studentId",
+          "course",
+          "loyaltyPoints",
+          "qrCode",
+          "decorativeArt"
+        ]
+      }
+    },
+    "designTokens": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "primaryColor",
+        "secondaryColor",
+        "textColor",
+        "orientation",
+        "backgroundMode",
+        "colorUsage",
+        "brandAssetSource",
+        "brandAssetTreatment",
+        "brandAssetIntensity",
+        "usesLogo",
+        "usesQr",
+        "usesPhoto",
+        "usesDecorativeArt"
+      ],
+      "properties": {
+        "primaryColor": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$"
+        },
+        "secondaryColor": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$"
+        },
+        "textColor": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$"
+        },
+        "orientation": {
+          "type": "string",
+          "enum": ["landscape", "portrait"]
+        },
+        "backgroundMode": {
+          "type": "string",
+          "enum": ["solid", "gradient", "image", "image-overlay", "pattern"]
+        },
+        "colorUsage": {
+          "type": "string",
+          "enum": ["subtle", "balanced", "dominant", "full"]
+        },
+        "brandAssetSource": {
+          "type": "string",
+          "enum": ["none", "logo", "hero", "background"]
+        },
+        "brandAssetTreatment": {
+          "type": "string",
+          "enum": [
+            "standard",
+            "logo-watermark",
+            "background-emblem",
+            "hero-backdrop",
+            "side-emblem"
+          ]
+        },
+        "brandAssetIntensity": {
+          "type": "string",
+          "enum": ["subtle", "medium", "bold"]
+        },
+        "usesLogo": {
+          "type": "boolean"
+        },
+        "usesQr": {
+          "type": "boolean"
+        },
+        "usesPhoto": {
+          "type": "boolean"
+        },
+        "usesDecorativeArt": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}

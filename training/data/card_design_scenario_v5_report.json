@@ -1,0 +1,149 @@
+{
+  "version": "scenario-v5",
+  "generatedAt": "2026-06-10T18:31:27.666Z",
+  "tokenizer": "HuggingFaceTB/SmolLM2-135M-Instruct",
+  "totalExamples": 3000,
+  "totalDistinctScenarios": 300,
+  "scenarioTasks": {
+    "generation": 150,
+    "refinement": 150
+  },
+  "scenarioMoods": {
+    "academic": 30,
+    "creative": 30,
+    "cyberpunk": 30,
+    "event": 30,
+    "identity": 30,
+    "luxury": 30,
+    "minimal": 30,
+    "official": 30,
+    "playful": 30,
+    "premium": 30
+  },
+  "examplesPerScenario": 10,
+  "maximumScenarioPromptJaccardSimilarity": {
+    "score": 0.308,
+    "left": "r5-premium-cover-shot-member",
+    "right": "r5-creative-magazine-masthead-identity"
+  },
+  "fieldPolicies": {
+    "exact": 3,
+    "merge": 297
+  },
+  "brandMatching": {
+    "train": {
+      "averageCompatibilityScore": 23.24,
+      "categoryMatchedExamples": 1892,
+      "preferredAssetMatchedExamples": 2354,
+      "exactFieldPolicyExamples": 10
+    },
+    "validation": {
+      "averageCompatibilityScore": 15.86,
+      "categoryMatchedExamples": 101,
+      "preferredAssetMatchedExamples": 236,
+      "exactFieldPolicyExamples": 10
+    },
+    "test": {
+      "averageCompatibilityScore": 14.99,
+      "categoryMatchedExamples": 107,
+      "preferredAssetMatchedExamples": 219,
+      "exactFieldPolicyExamples": 10
+    }
+  },
+  "splits": {
+    "train": {
+      "examples": 2500,
+      "scenarios": 250,
+      "brands": 100,
+      "tasks": {
+        "generation": 130,
+        "refinement": 120
+      },
+      "moods": {
+        "academic": 25,
+        "creative": 25,
+        "cyberpunk": 25,
+        "event": 25,
+        "identity": 25,
+        "luxury": 25,
+        "minimal": 25,
+        "official": 25,
+        "playful": 25,
+        "premium": 25
+      },
+      "tokenLengths": {
+        "count": 2500,
+        "max": 374,
+        "average": 337.5,
+        "over640": 0
+      }
+    },
+    "validation": {
+      "examples": 250,
+      "scenarios": 25,
+      "brands": 25,
+      "tasks": {
+        "generation": 10,
+        "refinement": 15
+      },
+      "moods": {
+        "academic": 2,
+        "creative": 2,
+        "cyberpunk": 3,
+        "event": 2,
+        "identity": 3,
+        "luxury": 3,
+        "minimal": 3,
+        "official": 2,
+        "playful": 3,
+        "premium": 2
+      },
+      "tokenLengths": {
+        "count": 250,
+        "max": 370,
+        "average": 341.4,
+        "over640": 0
+      }
+    },
+    "test": {
+      "examples": 250,
+      "scenarios": 25,
+      "brands": 25,
+      "tasks": {
+        "generation": 10,
+        "refinement": 15
+      },
+      "moods": {
+        "academic": 3,
+        "creative": 3,
+        "cyberpunk": 2,
+        "event": 3,
+        "identity": 2,
+        "luxury": 2,
+        "minimal": 2,
+        "official": 3,
+        "playful": 2,
+        "premium": 3
+      },
+      "tokenLengths": {
+        "count": 250,
+        "max": 370,
+        "average": 342.3,
+        "over640": 0
+      }
+    }
+  },
+  "validation": {
+    "duplicateScenarioKeys": 0,
+    "duplicateScenarioPrompts": 0,
+    "duplicateExamplePrompts": 0,
+    "duplicateExpectedIds": 0,
+    "scenarioLeakageAcrossSplits": 0,
+    "brandLeakageAcrossSplits": 0,
+    "invalidConcepts": 0,
+    "missingLockedFields": 0,
+    "primaryColorMismatches": 0,
+    "examplesOverTokenBudget": 0,
+    "tokenBudget": 640
+  }
+}

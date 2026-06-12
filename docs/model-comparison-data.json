@@ -1,0 +1,50 @@
+{
+  "benchmarkDate": "2026-06-10",
+  "brand": "Slow Brew Club",
+  "gpt54Mini": {
+    "elapsedSeconds": 8.863,
+    "returnedConcepts": 8,
+    "aiGeneratedConcepts": 8,
+    "uniqueMoods": 7,
+    "uniqueBackgroundModes": 4,
+    "uniqueAssetTreatments": 5,
+    "averageFieldsPerAiConcept": 4.75,
+    "brandColorPreserved": true,
+    "lockedFieldsPreserved": true,
+    "estimatedCostUsd": 0.00724
+  },
+  "localV6": {
+    "baseModel": "HuggingFaceTB/SmolLM2-135M-Instruct",
+    "parameters": 134515008,
+    "quantization": "Q4_K_M",
+    "ggufSizeMiB": 101,
+    "elapsedSeconds": 130.692,
+    "returnedConcepts": 8,
+    "aiGeneratedConcepts": 4,
+    "fallbackConcepts": 4,
+    "uniqueMoods": 7,
+    "uniqueBackgroundModes": 3,
+    "uniqueAssetTreatments": 3,
+    "averageFieldsPerAiConcept": 6.25,
+    "brandColorPreserved": true,
+    "lockedFieldsPreserved": true,
+    "observedMemoryMiB": 246,
+    "oomKilled": false,
+    "constraints": {
+      "platform": "linux/arm64 Docker",
+      "cpuQuota": 0.5,
+      "memoryLimitMiB": 384,
+      "contextTokens": 512,
+      "parallelSlots": 1
+    }
+  },
+  "comparison": {
+    "gpt54MiniSpeedup": 14.75
+  },
+  "notes": [
+    "One product-path run per provider using the same BrandProfile.",
+    "GPT-5.4 mini generated eight concepts in one request.",
+    "The local model generated four concepts sequentially and the deterministic engine filled four fallback concepts.",
+    "The GPT-5.4 mini cost is estimated rather than read from a persisted API usage object."
+  ]
+}

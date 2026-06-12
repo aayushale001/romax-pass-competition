@@ -1,0 +1,44 @@
+{
+  "name": "romax-pass-ai",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "local-ai:mock": "node scripts/mock-local-llm.mjs",
+    "local-ai:smoke": "node scripts/local-ai-smoke.mjs",
+    "training:data:v4": "node training/build_v4_dataset.mjs",
+    "training:train:v4": "PYTORCH_ENABLE_MPS_FALLBACK=1 .venv/bin/python training/train_lora.py --data training/data/card_design_v4_train.jsonl --eval-data training/data/card_design_v4_validation.jsonl --output training/output/card-designer-v4-lora --epochs 2",
+    "training:data:scenario-v5": "node training/build_scenario_v5_dataset.mjs",
+    "training:train:scenario-v5": "PYTORCH_ENABLE_MPS_FALLBACK=1 .venv/bin/python training/train_lora.py --data training/data/card_design_scenario_v5_train.jsonl --eval-data training/data/card_design_scenario_v5_validation.jsonl --output training/output/card-designer-scenario-v5-lora --epochs 2",
+    "training:data:v6": "node training/build_v6_combined_dataset.mjs",
+    "training:train:v6": "PYTORCH_ENABLE_MPS_FALLBACK=1 .venv/bin/python training/train_lora.py --data training/data/card_design_v6_train.jsonl --eval-data training/data/card_design_v6_validation.jsonl --output training/output/card-designer-v6-combined-lora --epochs 2",
+    "training:evaluate": "node training/evaluate_local_model.mjs",
+    "training:evaluate:v4": "node training/evaluate_local_model.mjs --data=training/data/card_design_v4_test.jsonl",
+    "training:evaluate:scenario-v5": "node training/evaluate_local_model.mjs --data=training/data/card_design_scenario_v5_test.jsonl",
+    "training:evaluate:v6": "node training/evaluate_local_model.mjs --data=training/data/card_design_v6_test.jsonl"
+  },
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "html-to-image": "^1.11.13",
+    "lucide-react": "^1.17.0",
+    "next": "16.2.6",
+    "openai": "^6.39.1",
+    "qrcode.react": "^4.2.0",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.6",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

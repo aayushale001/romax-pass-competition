@@ -1,0 +1,123 @@
+{
+  "version": "combined-v6",
+  "generatedAt": "2026-06-10T18:31:33.011Z",
+  "sources": {
+    "curated-v4": {
+      "scenarios": 300,
+      "examples": 3000
+    },
+    "scenario-v5": {
+      "scenarios": 300,
+      "examples": 3000
+    }
+  },
+  "maximumCrossSourceScenarioPromptJaccardSimilarity": {
+    "score": 0.273,
+    "left": "generation-premium-portrait-identity",
+    "right": "r5-premium-cover-shot-member"
+  },
+  "splits": {
+    "train": {
+      "examples": 5000,
+      "brands": 225,
+      "scenarios": 500,
+      "sources": {
+        "curated-v4": 2500,
+        "scenario-v5": 2500
+      },
+      "tasks": {
+        "generation": 2500,
+        "refinement": 2500
+      },
+      "moods": {
+        "academic": 500,
+        "creative": 500,
+        "cyberpunk": 500,
+        "event": 500,
+        "identity": 500,
+        "luxury": 500,
+        "minimal": 500,
+        "official": 500,
+        "playful": 500,
+        "premium": 500
+      },
+      "tokenLengths": {
+        "count": 5000,
+        "max": 374,
+        "average": 316.6,
+        "over640": 0
+      }
+    },
+    "validation": {
+      "examples": 500,
+      "brands": 48,
+      "scenarios": 50,
+      "sources": {
+        "curated-v4": 250,
+        "scenario-v5": 250
+      },
+      "tasks": {
+        "generation": 250,
+        "refinement": 250
+      },
+      "moods": {
+        "academic": 40,
+        "creative": 40,
+        "cyberpunk": 60,
+        "event": 40,
+        "identity": 60,
+        "luxury": 60,
+        "minimal": 60,
+        "official": 40,
+        "playful": 60,
+        "premium": 40
+      },
+      "tokenLengths": {
+        "count": 500,
+        "max": 370,
+        "average": 317.5,
+        "over640": 0
+      }
+    },
+    "test": {
+      "examples": 500,
+      "brands": 50,
+      "scenarios": 50,
+      "sources": {
+        "curated-v4": 250,
+        "scenario-v5": 250
+      },
+      "tasks": {
+        "generation": 250,
+        "refinement": 250
+      },
+      "moods": {
+        "academic": 60,
+        "creative": 60,
+        "cyberpunk": 40,
+        "event": 60,
+        "identity": 40,
+        "luxury": 40,
+        "minimal": 40,
+        "official": 60,
+        "playful": 40,
+        "premium": 60
+      },
+      "tokenLengths": {
+        "count": 500,
+        "max": 370,
+        "average": 316.6,
+        "over640": 0
+      }
+    }
+  },
+  "validation": {
+    "duplicateExamplePrompts": 0,
+    "duplicateExpectedIds": 0,
+    "brandLeakageAcrossSplits": 0,
+    "scenarioLeakageAcrossSplits": 0,
+    "invalidConcepts": 0,
+    "examplesOverTokenBudget": 0,
+    "tokenBudget": 640
+  }
+}

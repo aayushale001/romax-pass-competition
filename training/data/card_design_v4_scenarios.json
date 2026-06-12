@@ -1,0 +1,6216 @@
+[
+  {
+    "key": "generation-official-verification-first",
+    "task": "generation",
+    "mood": "official",
+    "prompt": "Design a security-desk credential where verification and expiry can be checked before any decorative detail is noticed.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-official-oversized-emblem",
+    "task": "generation",
+    "mood": "official",
+    "prompt": "Turn the organization mark into a confident civic-style seal behind a formal member credential.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "dominant",
+    "preferredAsset": "logo",
+    "treatment": "background-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-official-cinematic-backdrop",
+    "task": "generation",
+    "mood": "official",
+    "prompt": "Create an official pass that uses the selected hero image like documentary evidence while maintaining sober legibility.",
+    "orientation": "landscape",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "full",
+    "preferredAsset": "hero",
+    "treatment": "hero-backdrop",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-official-portrait-identity",
+    "task": "generation",
+    "mood": "official",
+    "prompt": "Build a portrait staff ID intended for face-to-face inspection at a controlled entrance.",
+    "orientation": "portrait",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "subtle",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate",
+      "photo"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-official-collectible-art",
+    "task": "generation",
+    "mood": "official",
+    "prompt": "Create a commemorative official credential with a controlled illustration area that never competes with verification.",
+    "orientation": "portrait",
+    "backgroundMode": "pattern",
+    "colorUsage": "full",
+    "preferredAsset": "background",
+    "treatment": "side-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": true,
+    "fields": [
+      "tier",
+      "expiryDate",
+      "decorativeArt",
+      "dateJoined"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-official-essential-fields",
+    "task": "generation",
+    "mood": "official",
+    "prompt": "Reduce the pass to the few facts a receptionist needs to verify membership quickly.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "subtle",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": [
+      "photo",
+      "decorativeArt",
+      "email",
+      "phone",
+      "course",
+      "loyaltyPoints",
+      "dateJoined"
+    ]
+  },
+  {
+    "key": "generation-official-rewards-led",
+    "task": "generation",
+    "mood": "official",
+    "prompt": "Design an official benefits credential where status and rewards are visible but never promotional.",
+    "orientation": "landscape",
+    "backgroundMode": "gradient",
+    "colorUsage": "dominant",
+    "preferredAsset": "background",
+    "treatment": "background-emblem",
+    "intensity": "medium",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate",
+      "loyaltyPoints"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-official-lanyard-badge",
+    "task": "generation",
+    "mood": "official",
+    "prompt": "Create a tall institutional badge for staff wearing it on a lanyard throughout the day.",
+    "orientation": "portrait",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "dominant",
+    "preferredAsset": "hero",
+    "treatment": "hero-backdrop",
+    "intensity": "medium",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate",
+      "photo",
+      "email"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-official-wallet-landscape",
+    "task": "generation",
+    "mood": "official",
+    "prompt": "Make a compact landscape credential suited to both a wallet screen and an access checkpoint.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "logo-watermark",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-official-network-contact",
+    "task": "generation",
+    "mood": "official",
+    "prompt": "Design a professional association ID that doubles as a trusted contact credential.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "subtle",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate",
+      "photo",
+      "email",
+      "phone"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-official-immersive-color",
+    "task": "generation",
+    "mood": "official",
+    "prompt": "Use the official color across nearly the whole card while preserving government-form clarity.",
+    "orientation": "portrait",
+    "backgroundMode": "gradient",
+    "colorUsage": "full",
+    "preferredAsset": "background",
+    "treatment": "background-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-official-quiet-mark",
+    "task": "generation",
+    "mood": "official",
+    "prompt": "Create a restrained credential where a faint institutional mark is the only decorative gesture.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "subtle",
+    "preferredAsset": "logo",
+    "treatment": "logo-watermark",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-official-pattern-system",
+    "task": "generation",
+    "mood": "official",
+    "prompt": "Build a formal patterned security pass inspired by anti-counterfeit document graphics.",
+    "orientation": "portrait",
+    "backgroundMode": "pattern",
+    "colorUsage": "dominant",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "medium",
+    "usesPhoto": false,
+    "usesDecorativeArt": true,
+    "fields": [
+      "tier",
+      "expiryDate",
+      "decorativeArt"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-official-image-panel",
+    "task": "generation",
+    "mood": "official",
+    "prompt": "Use a documentary image panel beside a precise official identity block.",
+    "orientation": "landscape",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "dominant",
+    "preferredAsset": "background",
+    "treatment": "hero-backdrop",
+    "intensity": "medium",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate",
+      "photo"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-official-scan-dominant",
+    "task": "generation",
+    "mood": "official",
+    "prompt": "Design a scan-first official credential for a high-throughput verification queue.",
+    "orientation": "portrait",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-minimal-verification-first",
+    "task": "generation",
+    "mood": "minimal",
+    "prompt": "Create a verification pass reduced to one calm hierarchy, one scan action, and no visual noise.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-minimal-oversized-emblem",
+    "task": "generation",
+    "mood": "minimal",
+    "prompt": "Use the logo as a single oversized geometric gesture in an otherwise sparse composition.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "dominant",
+    "preferredAsset": "logo",
+    "treatment": "background-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "expiryDate",
+      "tier"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-minimal-cinematic-backdrop",
+    "task": "generation",
+    "mood": "minimal",
+    "prompt": "Let one quiet brand photograph fill the card while the essential details remain almost editorial.",
+    "orientation": "landscape",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "full",
+    "preferredAsset": "hero",
+    "treatment": "hero-backdrop",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "expiryDate",
+      "tier"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-minimal-portrait-identity",
+    "task": "generation",
+    "mood": "minimal",
+    "prompt": "Design a minimal portrait identity card with the member photo treated like a clean publication portrait.",
+    "orientation": "portrait",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "subtle",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "expiryDate",
+      "photo",
+      "tier"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-minimal-collectible-art",
+    "task": "generation",
+    "mood": "minimal",
+    "prompt": "Create a collectible-looking pass using only one small art detail and a great deal of empty space.",
+    "orientation": "portrait",
+    "backgroundMode": "pattern",
+    "colorUsage": "full",
+    "preferredAsset": "background",
+    "treatment": "side-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": true,
+    "fields": [
+      "expiryDate",
+      "tier",
+      "decorativeArt",
+      "dateJoined"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-minimal-essential-fields",
+    "task": "generation",
+    "mood": "minimal",
+    "prompt": "Strip the membership card down to the minimum information needed for it to remain useful.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "subtle",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "expiryDate"
+    ],
+    "removeFields": [
+      "photo",
+      "decorativeArt",
+      "email",
+      "phone",
+      "course",
+      "loyaltyPoints",
+      "dateJoined"
+    ]
+  },
+  {
+    "key": "generation-minimal-rewards-led",
+    "task": "generation",
+    "mood": "minimal",
+    "prompt": "Make a quiet loyalty card where tier and points feel like carefully typeset facts.",
+    "orientation": "landscape",
+    "backgroundMode": "gradient",
+    "colorUsage": "dominant",
+    "preferredAsset": "background",
+    "treatment": "background-emblem",
+    "intensity": "medium",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "expiryDate",
+      "tier",
+      "loyaltyPoints"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-minimal-lanyard-badge",
+    "task": "generation",
+    "mood": "minimal",
+    "prompt": "Design a minimal vertical badge with disciplined alignment and an unobtrusive member portrait.",
+    "orientation": "portrait",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "dominant",
+    "preferredAsset": "hero",
+    "treatment": "hero-backdrop",
+    "intensity": "medium",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "expiryDate",
+      "photo",
+      "tier",
+      "email"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-minimal-wallet-landscape",
+    "task": "generation",
+    "mood": "minimal",
+    "prompt": "Create a thin, horizontal digital-wallet pass with exceptionally low information density.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "logo-watermark",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "expiryDate",
+      "tier"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-minimal-network-contact",
+    "task": "generation",
+    "mood": "minimal",
+    "prompt": "Make a minimalist professional contact card that still reads unmistakably as membership.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "subtle",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "expiryDate",
+      "photo",
+      "tier",
+      "email",
+      "phone"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-minimal-immersive-color",
+    "task": "generation",
+    "mood": "minimal",
+    "prompt": "Use a full field of brand color with almost no decoration and extremely clear typography.",
+    "orientation": "portrait",
+    "backgroundMode": "gradient",
+    "colorUsage": "full",
+    "preferredAsset": "background",
+    "treatment": "background-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "expiryDate",
+      "tier"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-minimal-quiet-mark",
+    "task": "generation",
+    "mood": "minimal",
+    "prompt": "Treat a faint logo watermark as the only brand signal on a nearly monochrome pass.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "subtle",
+    "preferredAsset": "logo",
+    "treatment": "logo-watermark",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "expiryDate",
+      "tier"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-minimal-pattern-system",
+    "task": "generation",
+    "mood": "minimal",
+    "prompt": "Create a restrained repeating pattern that is visible only on close inspection.",
+    "orientation": "portrait",
+    "backgroundMode": "pattern",
+    "colorUsage": "dominant",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "medium",
+    "usesPhoto": false,
+    "usesDecorativeArt": true,
+    "fields": [
+      "expiryDate",
+      "tier",
+      "decorativeArt"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-minimal-image-panel",
+    "task": "generation",
+    "mood": "minimal",
+    "prompt": "Use a single cropped image panel balanced by a sparse member-information column.",
+    "orientation": "landscape",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "dominant",
+    "preferredAsset": "background",
+    "treatment": "hero-backdrop",
+    "intensity": "medium",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "expiryDate",
+      "photo",
+      "tier"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-minimal-scan-dominant",
+    "task": "generation",
+    "mood": "minimal",
+    "prompt": "Make a QR-led minimal pass where every other element quietly supports the scan action.",
+    "orientation": "portrait",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-premium-verification-first",
+    "task": "generation",
+    "mood": "premium",
+    "prompt": "Design a concierge-ready premium credential with immediate verification and an understated status signal.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "loyaltyPoints",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-premium-oversized-emblem",
+    "task": "generation",
+    "mood": "premium",
+    "prompt": "Use the logo as a large embossed-feeling emblem behind an invitation-only membership card.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "dominant",
+    "preferredAsset": "logo",
+    "treatment": "background-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "loyaltyPoints"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-premium-cinematic-backdrop",
+    "task": "generation",
+    "mood": "premium",
+    "prompt": "Create a cinematic premium pass where the selected brand image feels like a private-club interior.",
+    "orientation": "landscape",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "full",
+    "preferredAsset": "hero",
+    "treatment": "hero-backdrop",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "loyaltyPoints"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-premium-portrait-identity",
+    "task": "generation",
+    "mood": "premium",
+    "prompt": "Build a portrait premium identity card that treats the member photograph like an editorial cover.",
+    "orientation": "portrait",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "subtle",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "loyaltyPoints",
+      "photo",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-premium-collectible-art",
+    "task": "generation",
+    "mood": "premium",
+    "prompt": "Design a collectible patron card with a tasteful artwork area and visible membership history.",
+    "orientation": "portrait",
+    "backgroundMode": "pattern",
+    "colorUsage": "full",
+    "preferredAsset": "background",
+    "treatment": "side-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": true,
+    "fields": [
+      "tier",
+      "loyaltyPoints",
+      "decorativeArt",
+      "dateJoined"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-premium-essential-fields",
+    "task": "generation",
+    "mood": "premium",
+    "prompt": "Create a low-density premium credential where every remaining field feels intentionally placed.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "subtle",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "loyaltyPoints",
+      "expiryDate"
+    ],
+    "removeFields": [
+      "photo",
+      "decorativeArt",
+      "email",
+      "phone",
+      "course",
+      "loyaltyPoints",
+      "dateJoined"
+    ]
+  },
+  {
+    "key": "generation-premium-rewards-led",
+    "task": "generation",
+    "mood": "premium",
+    "prompt": "Make tier and loyalty points the centerpiece of a sophisticated rewards membership.",
+    "orientation": "landscape",
+    "backgroundMode": "gradient",
+    "colorUsage": "dominant",
+    "preferredAsset": "background",
+    "treatment": "background-emblem",
+    "intensity": "medium",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "loyaltyPoints"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-premium-lanyard-badge",
+    "task": "generation",
+    "mood": "premium",
+    "prompt": "Design a tall VIP badge for a premium hospitality experience with polished member identification.",
+    "orientation": "portrait",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "dominant",
+    "preferredAsset": "hero",
+    "treatment": "hero-backdrop",
+    "intensity": "medium",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "loyaltyPoints",
+      "photo",
+      "email"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-premium-wallet-landscape",
+    "task": "generation",
+    "mood": "premium",
+    "prompt": "Create a landscape wallet pass that feels like a high-end physical card translated to screen.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "logo-watermark",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "loyaltyPoints",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-premium-network-contact",
+    "task": "generation",
+    "mood": "premium",
+    "prompt": "Build a premium networking credential with a portrait and discreet contact information.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "subtle",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "loyaltyPoints",
+      "photo",
+      "email",
+      "phone"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-premium-immersive-color",
+    "task": "generation",
+    "mood": "premium",
+    "prompt": "Immerse the entire card in the official brand color with a refined tonal hierarchy.",
+    "orientation": "portrait",
+    "backgroundMode": "gradient",
+    "colorUsage": "full",
+    "preferredAsset": "background",
+    "treatment": "background-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "loyaltyPoints"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-premium-quiet-mark",
+    "task": "generation",
+    "mood": "premium",
+    "prompt": "Create a quiet premium card where a subtle watermark communicates more than decoration would.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "subtle",
+    "preferredAsset": "logo",
+    "treatment": "logo-watermark",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "loyaltyPoints",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-premium-pattern-system",
+    "task": "generation",
+    "mood": "premium",
+    "prompt": "Use a bespoke-feeling pattern to give the membership card a signature luxury surface.",
+    "orientation": "portrait",
+    "backgroundMode": "pattern",
+    "colorUsage": "dominant",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "medium",
+    "usesPhoto": false,
+    "usesDecorativeArt": true,
+    "fields": [
+      "tier",
+      "loyaltyPoints",
+      "decorativeArt"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-premium-image-panel",
+    "task": "generation",
+    "mood": "premium",
+    "prompt": "Design a split visual card with a refined image panel and a precise benefits hierarchy.",
+    "orientation": "landscape",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "dominant",
+    "preferredAsset": "background",
+    "treatment": "hero-backdrop",
+    "intensity": "medium",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "loyaltyPoints",
+      "photo"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-premium-scan-dominant",
+    "task": "generation",
+    "mood": "premium",
+    "prompt": "Create a premium scan credential where the QR feels integrated rather than technically appended.",
+    "orientation": "portrait",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "loyaltyPoints",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-playful-verification-first",
+    "task": "generation",
+    "mood": "playful",
+    "prompt": "Create a cheerful verification pass that makes routine scanning feel welcoming rather than bureaucratic.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-playful-oversized-emblem",
+    "task": "generation",
+    "mood": "playful",
+    "prompt": "Turn the logo into an oversized playful shape that frames the member details.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "dominant",
+    "preferredAsset": "logo",
+    "treatment": "background-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-playful-cinematic-backdrop",
+    "task": "generation",
+    "mood": "playful",
+    "prompt": "Use the hero image as a colorful scene behind a friendly community membership card.",
+    "orientation": "landscape",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "full",
+    "preferredAsset": "hero",
+    "treatment": "hero-backdrop",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-playful-portrait-identity",
+    "task": "generation",
+    "mood": "playful",
+    "prompt": "Design a portrait member card where the photo feels like a bright social profile.",
+    "orientation": "portrait",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "subtle",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "photo",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-playful-collectible-art",
+    "task": "generation",
+    "mood": "playful",
+    "prompt": "Make a collectible character card with a prominent decorative-art slot and join date.",
+    "orientation": "portrait",
+    "backgroundMode": "pattern",
+    "colorUsage": "full",
+    "preferredAsset": "background",
+    "treatment": "side-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": true,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "dateJoined"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-playful-essential-fields",
+    "task": "generation",
+    "mood": "playful",
+    "prompt": "Create a simple friendly pass with only the details members actually use.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "subtle",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "expiryDate"
+    ],
+    "removeFields": [
+      "photo",
+      "decorativeArt",
+      "email",
+      "phone",
+      "course",
+      "loyaltyPoints",
+      "dateJoined"
+    ]
+  },
+  {
+    "key": "generation-playful-rewards-led",
+    "task": "generation",
+    "mood": "playful",
+    "prompt": "Design a rewards card that celebrates points and tier like progress in a game.",
+    "orientation": "landscape",
+    "backgroundMode": "gradient",
+    "colorUsage": "dominant",
+    "preferredAsset": "background",
+    "treatment": "background-emblem",
+    "intensity": "medium",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "loyaltyPoints"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-playful-lanyard-badge",
+    "task": "generation",
+    "mood": "playful",
+    "prompt": "Build a vertical community badge with a lively portrait and clear entry code.",
+    "orientation": "portrait",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "dominant",
+    "preferredAsset": "hero",
+    "treatment": "hero-backdrop",
+    "intensity": "medium",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "photo",
+      "email"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-playful-wallet-landscape",
+    "task": "generation",
+    "mood": "playful",
+    "prompt": "Make a horizontal wallet pass that feels energetic even at a small screen size.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "logo-watermark",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-playful-network-contact",
+    "task": "generation",
+    "mood": "playful",
+    "prompt": "Create a friendly networking card with member photo, email, and phone presented conversationally.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "subtle",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "photo",
+      "email",
+      "phone"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-playful-immersive-color",
+    "task": "generation",
+    "mood": "playful",
+    "prompt": "Let the official color flood the design in a joyful but still readable way.",
+    "orientation": "portrait",
+    "backgroundMode": "gradient",
+    "colorUsage": "full",
+    "preferredAsset": "background",
+    "treatment": "background-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-playful-quiet-mark",
+    "task": "generation",
+    "mood": "playful",
+    "prompt": "Use a soft logo watermark to create a playful surprise without clutter.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "subtle",
+    "preferredAsset": "logo",
+    "treatment": "logo-watermark",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-playful-pattern-system",
+    "task": "generation",
+    "mood": "playful",
+    "prompt": "Create a bold repeating pattern that feels like branded wrapping paper for membership.",
+    "orientation": "portrait",
+    "backgroundMode": "pattern",
+    "colorUsage": "dominant",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "medium",
+    "usesPhoto": false,
+    "usesDecorativeArt": true,
+    "fields": [
+      "tier",
+      "decorativeArt"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-playful-image-panel",
+    "task": "generation",
+    "mood": "playful",
+    "prompt": "Use a bright image panel beside a compact and approachable member profile.",
+    "orientation": "landscape",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "dominant",
+    "preferredAsset": "background",
+    "treatment": "hero-backdrop",
+    "intensity": "medium",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "photo"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-playful-scan-dominant",
+    "task": "generation",
+    "mood": "playful",
+    "prompt": "Design a playful scan-first pass with a QR zone that feels like part of the visual rhythm.",
+    "orientation": "portrait",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-creative-verification-first",
+    "task": "generation",
+    "mood": "creative",
+    "prompt": "Design an art-directed verification credential where utility is framed by an unconventional composition.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-creative-oversized-emblem",
+    "task": "generation",
+    "mood": "creative",
+    "prompt": "Transform the logo into an oversized poster-like emblem that becomes the card's main graphic.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "dominant",
+    "preferredAsset": "logo",
+    "treatment": "background-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-creative-cinematic-backdrop",
+    "task": "generation",
+    "mood": "creative",
+    "prompt": "Use the selected hero image as a full cinematic canvas for an expressive membership pass.",
+    "orientation": "landscape",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "full",
+    "preferredAsset": "hero",
+    "treatment": "hero-backdrop",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-creative-portrait-identity",
+    "task": "generation",
+    "mood": "creative",
+    "prompt": "Create a portrait identity card inspired by an independent magazine cover.",
+    "orientation": "portrait",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "subtle",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "photo",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-creative-collectible-art",
+    "task": "generation",
+    "mood": "creative",
+    "prompt": "Build a collectible artist card with a dominant custom-art area and visible membership provenance.",
+    "orientation": "portrait",
+    "backgroundMode": "pattern",
+    "colorUsage": "full",
+    "preferredAsset": "background",
+    "treatment": "side-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": true,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "dateJoined"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-creative-essential-fields",
+    "task": "generation",
+    "mood": "creative",
+    "prompt": "Make an experimental but sparse pass using only the essential identity and verification fields.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "subtle",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "expiryDate"
+    ],
+    "removeFields": [
+      "photo",
+      "decorativeArt",
+      "email",
+      "phone",
+      "course",
+      "loyaltyPoints",
+      "dateJoined"
+    ]
+  },
+  {
+    "key": "generation-creative-rewards-led",
+    "task": "generation",
+    "mood": "creative",
+    "prompt": "Turn loyalty status and points into a bold typographic composition.",
+    "orientation": "landscape",
+    "backgroundMode": "gradient",
+    "colorUsage": "dominant",
+    "preferredAsset": "background",
+    "treatment": "background-emblem",
+    "intensity": "medium",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "loyaltyPoints"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-creative-lanyard-badge",
+    "task": "generation",
+    "mood": "creative",
+    "prompt": "Design a tall creative-event badge that feels like a limited-edition print.",
+    "orientation": "portrait",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "dominant",
+    "preferredAsset": "hero",
+    "treatment": "hero-backdrop",
+    "intensity": "medium",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "photo",
+      "email"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-creative-wallet-landscape",
+    "task": "generation",
+    "mood": "creative",
+    "prompt": "Create a horizontal wallet card with an asymmetric editorial layout.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "logo-watermark",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-creative-network-contact",
+    "task": "generation",
+    "mood": "creative",
+    "prompt": "Build a creative professional identity card that combines portrait and contact details like a portfolio cover.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "subtle",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "photo",
+      "email",
+      "phone"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-creative-immersive-color",
+    "task": "generation",
+    "mood": "creative",
+    "prompt": "Use the primary color as a full-bleed expressive field with assertive type.",
+    "orientation": "portrait",
+    "backgroundMode": "gradient",
+    "colorUsage": "full",
+    "preferredAsset": "background",
+    "treatment": "background-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-creative-quiet-mark",
+    "task": "generation",
+    "mood": "creative",
+    "prompt": "Create a subtle conceptual card where the logo appears as a barely visible background artifact.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "subtle",
+    "preferredAsset": "logo",
+    "treatment": "logo-watermark",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-creative-pattern-system",
+    "task": "generation",
+    "mood": "creative",
+    "prompt": "Develop a distinctive pattern system that could extend across an entire membership program.",
+    "orientation": "portrait",
+    "backgroundMode": "pattern",
+    "colorUsage": "dominant",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "medium",
+    "usesPhoto": false,
+    "usesDecorativeArt": true,
+    "fields": [
+      "tier",
+      "decorativeArt"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-creative-image-panel",
+    "task": "generation",
+    "mood": "creative",
+    "prompt": "Compose a strong image panel against an unexpected but readable information hierarchy.",
+    "orientation": "landscape",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "dominant",
+    "preferredAsset": "background",
+    "treatment": "hero-backdrop",
+    "intensity": "medium",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "photo"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-creative-scan-dominant",
+    "task": "generation",
+    "mood": "creative",
+    "prompt": "Make the scan code the visual anchor of an otherwise expressive access card.",
+    "orientation": "portrait",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-cyberpunk-verification-first",
+    "task": "generation",
+    "mood": "cyberpunk",
+    "prompt": "Create a secure digital credential designed for rapid verification in a neon-lit venue.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-cyberpunk-oversized-emblem",
+    "task": "generation",
+    "mood": "cyberpunk",
+    "prompt": "Turn the logo into a giant illuminated system emblem behind the access data.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "dominant",
+    "preferredAsset": "logo",
+    "treatment": "background-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-cyberpunk-cinematic-backdrop",
+    "task": "generation",
+    "mood": "cyberpunk",
+    "prompt": "Use the hero image as a high-contrast futuristic city-like backdrop.",
+    "orientation": "landscape",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "full",
+    "preferredAsset": "hero",
+    "treatment": "hero-backdrop",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-cyberpunk-portrait-identity",
+    "task": "generation",
+    "mood": "cyberpunk",
+    "prompt": "Design a portrait identity token with a prominent member photo and technical status readout.",
+    "orientation": "portrait",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "subtle",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "photo",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-cyberpunk-collectible-art",
+    "task": "generation",
+    "mood": "cyberpunk",
+    "prompt": "Build a collectible digital-character pass with a bold art slot and membership history.",
+    "orientation": "portrait",
+    "backgroundMode": "pattern",
+    "colorUsage": "full",
+    "preferredAsset": "background",
+    "treatment": "side-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": true,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "dateJoined"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-cyberpunk-essential-fields",
+    "task": "generation",
+    "mood": "cyberpunk",
+    "prompt": "Create a stripped-back access token containing only critical identity and scan data.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "subtle",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "expiryDate"
+    ],
+    "removeFields": [
+      "photo",
+      "decorativeArt",
+      "email",
+      "phone",
+      "course",
+      "loyaltyPoints",
+      "dateJoined"
+    ]
+  },
+  {
+    "key": "generation-cyberpunk-rewards-led",
+    "task": "generation",
+    "mood": "cyberpunk",
+    "prompt": "Present loyalty tier and points like live system statistics on a premium digital token.",
+    "orientation": "landscape",
+    "backgroundMode": "gradient",
+    "colorUsage": "dominant",
+    "preferredAsset": "background",
+    "treatment": "background-emblem",
+    "intensity": "medium",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "loyaltyPoints"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-cyberpunk-lanyard-badge",
+    "task": "generation",
+    "mood": "cyberpunk",
+    "prompt": "Design a tall cyberpunk event badge intended for a lanyard and checkpoint scanning.",
+    "orientation": "portrait",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "dominant",
+    "preferredAsset": "hero",
+    "treatment": "hero-backdrop",
+    "intensity": "medium",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "photo",
+      "email"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-cyberpunk-wallet-landscape",
+    "task": "generation",
+    "mood": "cyberpunk",
+    "prompt": "Create a landscape wallet token with a compact heads-up-display hierarchy.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "logo-watermark",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-cyberpunk-network-contact",
+    "task": "generation",
+    "mood": "cyberpunk",
+    "prompt": "Make a futuristic professional identity credential with direct contact channels.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "subtle",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "photo",
+      "email",
+      "phone"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-cyberpunk-immersive-color",
+    "task": "generation",
+    "mood": "cyberpunk",
+    "prompt": "Flood the pass with the primary color and sharp high-contrast information layers.",
+    "orientation": "portrait",
+    "backgroundMode": "gradient",
+    "colorUsage": "full",
+    "preferredAsset": "background",
+    "treatment": "background-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-cyberpunk-quiet-mark",
+    "task": "generation",
+    "mood": "cyberpunk",
+    "prompt": "Use the logo as a faint holographic watermark on a controlled technical surface.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "subtle",
+    "preferredAsset": "logo",
+    "treatment": "logo-watermark",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-cyberpunk-pattern-system",
+    "task": "generation",
+    "mood": "cyberpunk",
+    "prompt": "Create a coded repeating pattern that suggests encrypted membership data.",
+    "orientation": "portrait",
+    "backgroundMode": "pattern",
+    "colorUsage": "dominant",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "medium",
+    "usesPhoto": false,
+    "usesDecorativeArt": true,
+    "fields": [
+      "tier",
+      "decorativeArt"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-cyberpunk-image-panel",
+    "task": "generation",
+    "mood": "cyberpunk",
+    "prompt": "Use a dramatic image panel next to a precise digital identity readout.",
+    "orientation": "landscape",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "dominant",
+    "preferredAsset": "background",
+    "treatment": "hero-backdrop",
+    "intensity": "medium",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "photo"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-cyberpunk-scan-dominant",
+    "task": "generation",
+    "mood": "cyberpunk",
+    "prompt": "Design a QR-dominant access token where scanning feels like the central interaction.",
+    "orientation": "portrait",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-academic-verification-first",
+    "task": "generation",
+    "mood": "academic",
+    "prompt": "Design a campus verification credential optimized for library, exam, and building checks.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "studentId",
+      "course",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-academic-oversized-emblem",
+    "task": "generation",
+    "mood": "academic",
+    "prompt": "Use the university mark as a large heraldic emblem behind student information.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "dominant",
+    "preferredAsset": "logo",
+    "treatment": "background-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "studentId",
+      "course",
+      "expiryDate",
+      "tier"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-academic-cinematic-backdrop",
+    "task": "generation",
+    "mood": "academic",
+    "prompt": "Create an academic pass with a campus hero image treated like an institutional backdrop.",
+    "orientation": "landscape",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "full",
+    "preferredAsset": "hero",
+    "treatment": "hero-backdrop",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "studentId",
+      "course",
+      "expiryDate",
+      "tier"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-academic-portrait-identity",
+    "task": "generation",
+    "mood": "academic",
+    "prompt": "Build a portrait student ID with photo, student number, course, and expiry clearly prioritized.",
+    "orientation": "portrait",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "subtle",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "studentId",
+      "course",
+      "expiryDate",
+      "tier"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-academic-collectible-art",
+    "task": "generation",
+    "mood": "academic",
+    "prompt": "Design a collectible alumni or society card with a tasteful decorative-art area.",
+    "orientation": "portrait",
+    "backgroundMode": "pattern",
+    "colorUsage": "full",
+    "preferredAsset": "background",
+    "treatment": "side-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": true,
+    "fields": [
+      "photo",
+      "studentId",
+      "course",
+      "expiryDate",
+      "tier",
+      "decorativeArt",
+      "dateJoined"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-academic-essential-fields",
+    "task": "generation",
+    "mood": "academic",
+    "prompt": "Create a sparse academic credential showing only the facts required for campus verification.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "subtle",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "studentId",
+      "course",
+      "expiryDate"
+    ],
+    "removeFields": [
+      "photo",
+      "decorativeArt",
+      "email",
+      "phone",
+      "course",
+      "loyaltyPoints",
+      "dateJoined"
+    ]
+  },
+  {
+    "key": "generation-academic-rewards-led",
+    "task": "generation",
+    "mood": "academic",
+    "prompt": "Make an academic benefits card where status and available points are easy to understand.",
+    "orientation": "landscape",
+    "backgroundMode": "gradient",
+    "colorUsage": "dominant",
+    "preferredAsset": "background",
+    "treatment": "background-emblem",
+    "intensity": "medium",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "studentId",
+      "course",
+      "expiryDate",
+      "tier",
+      "loyaltyPoints"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-academic-lanyard-badge",
+    "task": "generation",
+    "mood": "academic",
+    "prompt": "Design a tall conference-style academic badge with photo and institutional hierarchy.",
+    "orientation": "portrait",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "dominant",
+    "preferredAsset": "hero",
+    "treatment": "hero-backdrop",
+    "intensity": "medium",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "studentId",
+      "course",
+      "expiryDate",
+      "tier",
+      "email"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-academic-wallet-landscape",
+    "task": "generation",
+    "mood": "academic",
+    "prompt": "Create a landscape student wallet pass for quick everyday campus use.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "logo-watermark",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "studentId",
+      "course",
+      "expiryDate",
+      "tier"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-academic-network-contact",
+    "task": "generation",
+    "mood": "academic",
+    "prompt": "Build an academic networking credential with portrait and professional contact details.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "subtle",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "studentId",
+      "course",
+      "expiryDate",
+      "tier",
+      "email",
+      "phone"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-academic-immersive-color",
+    "task": "generation",
+    "mood": "academic",
+    "prompt": "Use the institutional primary color boldly while retaining formal academic authority.",
+    "orientation": "portrait",
+    "backgroundMode": "gradient",
+    "colorUsage": "full",
+    "preferredAsset": "background",
+    "treatment": "background-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "studentId",
+      "course",
+      "expiryDate",
+      "tier"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-academic-quiet-mark",
+    "task": "generation",
+    "mood": "academic",
+    "prompt": "Create a heritage-inspired academic pass with a subtle crest-like watermark.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "subtle",
+    "preferredAsset": "logo",
+    "treatment": "logo-watermark",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "studentId",
+      "course",
+      "expiryDate",
+      "tier"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-academic-pattern-system",
+    "task": "generation",
+    "mood": "academic",
+    "prompt": "Develop a restrained scholarly pattern inspired by archive labels or library grids.",
+    "orientation": "portrait",
+    "backgroundMode": "pattern",
+    "colorUsage": "dominant",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "medium",
+    "usesPhoto": false,
+    "usesDecorativeArt": true,
+    "fields": [
+      "photo",
+      "studentId",
+      "course",
+      "expiryDate",
+      "tier",
+      "decorativeArt"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-academic-image-panel",
+    "task": "generation",
+    "mood": "academic",
+    "prompt": "Use a campus image panel beside a formal student identity block.",
+    "orientation": "landscape",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "dominant",
+    "preferredAsset": "background",
+    "treatment": "hero-backdrop",
+    "intensity": "medium",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "studentId",
+      "course",
+      "expiryDate",
+      "tier"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-academic-scan-dominant",
+    "task": "generation",
+    "mood": "academic",
+    "prompt": "Design a scan-first academic credential for fast controlled entry during exams.",
+    "orientation": "portrait",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "studentId",
+      "course",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-luxury-verification-first",
+    "task": "generation",
+    "mood": "luxury",
+    "prompt": "Design a discreet verification credential for an invitation-only membership experience.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-luxury-oversized-emblem",
+    "task": "generation",
+    "mood": "luxury",
+    "prompt": "Turn the logo into a monumental embossed-style emblem with very restrained supporting detail.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "dominant",
+    "preferredAsset": "logo",
+    "treatment": "background-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-luxury-cinematic-backdrop",
+    "task": "generation",
+    "mood": "luxury",
+    "prompt": "Use a selected brand image like an editorial luxury campaign behind the membership information.",
+    "orientation": "landscape",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "full",
+    "preferredAsset": "hero",
+    "treatment": "hero-backdrop",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-luxury-portrait-identity",
+    "task": "generation",
+    "mood": "luxury",
+    "prompt": "Create a portrait identity card with a member photograph treated like a private-client profile.",
+    "orientation": "portrait",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "subtle",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate",
+      "photo"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-luxury-collectible-art",
+    "task": "generation",
+    "mood": "luxury",
+    "prompt": "Design a collectible patron credential with a carefully framed artwork area.",
+    "orientation": "portrait",
+    "backgroundMode": "pattern",
+    "colorUsage": "full",
+    "preferredAsset": "background",
+    "treatment": "side-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": true,
+    "fields": [
+      "tier",
+      "expiryDate",
+      "decorativeArt",
+      "dateJoined"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-luxury-essential-fields",
+    "task": "generation",
+    "mood": "luxury",
+    "prompt": "Reduce the luxury card to essential information and immaculate spacing.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "subtle",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": [
+      "photo",
+      "decorativeArt",
+      "email",
+      "phone",
+      "course",
+      "loyaltyPoints",
+      "dateJoined"
+    ]
+  },
+  {
+    "key": "generation-luxury-rewards-led",
+    "task": "generation",
+    "mood": "luxury",
+    "prompt": "Make membership tier and rewards feel like discreet privileges rather than promotional points.",
+    "orientation": "landscape",
+    "backgroundMode": "gradient",
+    "colorUsage": "dominant",
+    "preferredAsset": "background",
+    "treatment": "background-emblem",
+    "intensity": "medium",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate",
+      "loyaltyPoints"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-luxury-lanyard-badge",
+    "task": "generation",
+    "mood": "luxury",
+    "prompt": "Create a tall VIP badge for an exclusive event or hospitality setting.",
+    "orientation": "portrait",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "dominant",
+    "preferredAsset": "hero",
+    "treatment": "hero-backdrop",
+    "intensity": "medium",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate",
+      "photo",
+      "email"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-luxury-wallet-landscape",
+    "task": "generation",
+    "mood": "luxury",
+    "prompt": "Design a landscape wallet pass that resembles a precision-crafted physical membership card.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "logo-watermark",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-luxury-network-contact",
+    "task": "generation",
+    "mood": "luxury",
+    "prompt": "Build an elegant private-network credential with photo and subtle contact details.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "subtle",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate",
+      "photo",
+      "email",
+      "phone"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-luxury-immersive-color",
+    "task": "generation",
+    "mood": "luxury",
+    "prompt": "Use full official color with tonal depth instead of obvious decorative effects.",
+    "orientation": "portrait",
+    "backgroundMode": "gradient",
+    "colorUsage": "full",
+    "preferredAsset": "background",
+    "treatment": "background-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-luxury-quiet-mark",
+    "task": "generation",
+    "mood": "luxury",
+    "prompt": "Create a quiet luxury pass centered on an almost invisible logo watermark.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "subtle",
+    "preferredAsset": "logo",
+    "treatment": "logo-watermark",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-luxury-pattern-system",
+    "task": "generation",
+    "mood": "luxury",
+    "prompt": "Develop a refined repeating pattern inspired by bespoke material or engraving.",
+    "orientation": "portrait",
+    "backgroundMode": "pattern",
+    "colorUsage": "dominant",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "medium",
+    "usesPhoto": false,
+    "usesDecorativeArt": true,
+    "fields": [
+      "tier",
+      "expiryDate",
+      "decorativeArt"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-luxury-image-panel",
+    "task": "generation",
+    "mood": "luxury",
+    "prompt": "Use a premium image panel beside a disciplined, high-contrast member hierarchy.",
+    "orientation": "landscape",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "dominant",
+    "preferredAsset": "background",
+    "treatment": "hero-backdrop",
+    "intensity": "medium",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate",
+      "photo"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-luxury-scan-dominant",
+    "task": "generation",
+    "mood": "luxury",
+    "prompt": "Design a scan-focused luxury credential where the QR remains elegant and easy to use.",
+    "orientation": "portrait",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-event-verification-first",
+    "task": "generation",
+    "mood": "event",
+    "prompt": "Create an access credential optimized for the fastest possible entry-lane verification.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "email",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-event-oversized-emblem",
+    "task": "generation",
+    "mood": "event",
+    "prompt": "Turn the event mark into a giant stage-like emblem behind attendee details.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "dominant",
+    "preferredAsset": "logo",
+    "treatment": "background-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "email"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-event-cinematic-backdrop",
+    "task": "generation",
+    "mood": "event",
+    "prompt": "Use the hero image as a full event-poster backdrop while keeping attendee data readable.",
+    "orientation": "landscape",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "full",
+    "preferredAsset": "hero",
+    "treatment": "hero-backdrop",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "email"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-event-portrait-identity",
+    "task": "generation",
+    "mood": "event",
+    "prompt": "Design a portrait attendee badge with a highly visible photo for staff inspection.",
+    "orientation": "portrait",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "subtle",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "email",
+      "photo",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-event-collectible-art",
+    "task": "generation",
+    "mood": "event",
+    "prompt": "Build a collectible festival pass with a dedicated artwork area and attendance date.",
+    "orientation": "portrait",
+    "backgroundMode": "pattern",
+    "colorUsage": "full",
+    "preferredAsset": "background",
+    "treatment": "side-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": true,
+    "fields": [
+      "tier",
+      "email",
+      "decorativeArt",
+      "dateJoined"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-event-essential-fields",
+    "task": "generation",
+    "mood": "event",
+    "prompt": "Create a compact event pass containing only the facts needed at the entrance.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "subtle",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "email",
+      "expiryDate"
+    ],
+    "removeFields": [
+      "photo",
+      "decorativeArt",
+      "email",
+      "phone",
+      "course",
+      "loyaltyPoints",
+      "dateJoined"
+    ]
+  },
+  {
+    "key": "generation-event-rewards-led",
+    "task": "generation",
+    "mood": "event",
+    "prompt": "Design a sponsor or VIP event credential where tier and benefits are immediately visible.",
+    "orientation": "landscape",
+    "backgroundMode": "gradient",
+    "colorUsage": "dominant",
+    "preferredAsset": "background",
+    "treatment": "background-emblem",
+    "intensity": "medium",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "email",
+      "loyaltyPoints"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-event-lanyard-badge",
+    "task": "generation",
+    "mood": "event",
+    "prompt": "Make a tall lanyard badge with photo, attendee tier, contact detail, and a clear QR.",
+    "orientation": "portrait",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "dominant",
+    "preferredAsset": "hero",
+    "treatment": "hero-backdrop",
+    "intensity": "medium",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "email",
+      "photo"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-event-wallet-landscape",
+    "task": "generation",
+    "mood": "event",
+    "prompt": "Create a landscape mobile ticket that remains energetic and scannable on a phone.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "logo-watermark",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "email",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-event-network-contact",
+    "task": "generation",
+    "mood": "event",
+    "prompt": "Build a networking-conference badge with portrait, email, and phone details.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "subtle",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "email",
+      "photo",
+      "phone"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-event-immersive-color",
+    "task": "generation",
+    "mood": "event",
+    "prompt": "Use the event color as an immersive full-card signal visible from a distance.",
+    "orientation": "portrait",
+    "backgroundMode": "gradient",
+    "colorUsage": "full",
+    "preferredAsset": "background",
+    "treatment": "background-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "email"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-event-quiet-mark",
+    "task": "generation",
+    "mood": "event",
+    "prompt": "Create a restrained event badge using a faint logo watermark and precise information.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "subtle",
+    "preferredAsset": "logo",
+    "treatment": "logo-watermark",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "email",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-event-pattern-system",
+    "task": "generation",
+    "mood": "event",
+    "prompt": "Develop a rhythmic pattern that makes multiple attendee badges feel like one event system.",
+    "orientation": "portrait",
+    "backgroundMode": "pattern",
+    "colorUsage": "dominant",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "medium",
+    "usesPhoto": false,
+    "usesDecorativeArt": true,
+    "fields": [
+      "tier",
+      "email",
+      "decorativeArt"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-event-image-panel",
+    "task": "generation",
+    "mood": "event",
+    "prompt": "Use a strong event image panel beside compact attendee and access information.",
+    "orientation": "landscape",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "dominant",
+    "preferredAsset": "background",
+    "treatment": "hero-backdrop",
+    "intensity": "medium",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "email",
+      "photo"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-event-scan-dominant",
+    "task": "generation",
+    "mood": "event",
+    "prompt": "Design a QR-dominant event pass for high-volume gate scanning.",
+    "orientation": "portrait",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "email",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-identity-verification-first",
+    "task": "generation",
+    "mood": "identity",
+    "prompt": "Create an identity credential where a verifier can confirm membership status in a single glance.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-identity-oversized-emblem",
+    "task": "generation",
+    "mood": "identity",
+    "prompt": "Use the logo as a large supporting emblem that frames, but never competes with, the member.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "dominant",
+    "preferredAsset": "logo",
+    "treatment": "background-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-identity-cinematic-backdrop",
+    "task": "generation",
+    "mood": "identity",
+    "prompt": "Place the member identity over a cinematic brand-image backdrop while keeping the face inspectable.",
+    "orientation": "landscape",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "full",
+    "preferredAsset": "hero",
+    "treatment": "hero-backdrop",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-identity-portrait-identity",
+    "task": "generation",
+    "mood": "identity",
+    "prompt": "Design a portrait-first identity card with a confident member photograph and formal details.",
+    "orientation": "portrait",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "subtle",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-identity-collectible-art",
+    "task": "generation",
+    "mood": "identity",
+    "prompt": "Build a collectible identity card that pairs the member with a personal decorative-art slot.",
+    "orientation": "portrait",
+    "backgroundMode": "pattern",
+    "colorUsage": "full",
+    "preferredAsset": "background",
+    "treatment": "side-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": true,
+    "fields": [
+      "photo",
+      "tier",
+      "expiryDate",
+      "decorativeArt",
+      "dateJoined"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-identity-essential-fields",
+    "task": "generation",
+    "mood": "identity",
+    "prompt": "Create a sparse identity credential showing only face, name, member ID, expiry, and QR.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "subtle",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": [
+      "photo",
+      "decorativeArt",
+      "email",
+      "phone",
+      "course",
+      "loyaltyPoints",
+      "dateJoined"
+    ]
+  },
+  {
+    "key": "generation-identity-rewards-led",
+    "task": "generation",
+    "mood": "identity",
+    "prompt": "Design a member-status identity card that also makes tier and points easy to see.",
+    "orientation": "landscape",
+    "backgroundMode": "gradient",
+    "colorUsage": "dominant",
+    "preferredAsset": "background",
+    "treatment": "background-emblem",
+    "intensity": "medium",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "tier",
+      "expiryDate",
+      "loyaltyPoints"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-identity-lanyard-badge",
+    "task": "generation",
+    "mood": "identity",
+    "prompt": "Create a tall wearable identity badge intended for repeated visual inspection.",
+    "orientation": "portrait",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "dominant",
+    "preferredAsset": "hero",
+    "treatment": "hero-backdrop",
+    "intensity": "medium",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "tier",
+      "expiryDate",
+      "email"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-identity-wallet-landscape",
+    "task": "generation",
+    "mood": "identity",
+    "prompt": "Build a landscape identity pass that works naturally in a phone wallet.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "logo-watermark",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-identity-network-contact",
+    "task": "generation",
+    "mood": "identity",
+    "prompt": "Design a professional member identity card with portrait, email, and phone.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "subtle",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "tier",
+      "expiryDate",
+      "email",
+      "phone"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-identity-immersive-color",
+    "task": "generation",
+    "mood": "identity",
+    "prompt": "Use the primary color across the full identity card without reducing face or text clarity.",
+    "orientation": "portrait",
+    "backgroundMode": "gradient",
+    "colorUsage": "full",
+    "preferredAsset": "background",
+    "treatment": "background-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-identity-quiet-mark",
+    "task": "generation",
+    "mood": "identity",
+    "prompt": "Create a restrained identity credential using a quiet logo watermark behind the member.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "subtle",
+    "preferredAsset": "logo",
+    "treatment": "logo-watermark",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-identity-pattern-system",
+    "task": "generation",
+    "mood": "identity",
+    "prompt": "Develop a branded pattern that surrounds a clear central portrait and identity block.",
+    "orientation": "portrait",
+    "backgroundMode": "pattern",
+    "colorUsage": "dominant",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "medium",
+    "usesPhoto": false,
+    "usesDecorativeArt": true,
+    "fields": [
+      "photo",
+      "tier",
+      "expiryDate",
+      "decorativeArt"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-identity-image-panel",
+    "task": "generation",
+    "mood": "identity",
+    "prompt": "Use a brand image panel beside a sharply organized member portrait and details.",
+    "orientation": "landscape",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "dominant",
+    "preferredAsset": "background",
+    "treatment": "hero-backdrop",
+    "intensity": "medium",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "generation-identity-scan-dominant",
+    "task": "generation",
+    "mood": "identity",
+    "prompt": "Design a scan-first identity credential with the QR and portrait treated as equal verification tools.",
+    "orientation": "portrait",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-official-verification-first",
+    "task": "refinement",
+    "mood": "official",
+    "prompt": "Make the existing card easier for security staff to verify without changing the official identity.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-official-oversized-emblem",
+    "task": "refinement",
+    "mood": "official",
+    "prompt": "Replace the small logo treatment with a large restrained institutional emblem.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "dominant",
+    "preferredAsset": "logo",
+    "treatment": "background-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-official-cinematic-backdrop",
+    "task": "refinement",
+    "mood": "official",
+    "prompt": "Use the selected brand image as documentary context, but keep the result formal.",
+    "orientation": "landscape",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "full",
+    "preferredAsset": "hero",
+    "treatment": "hero-backdrop",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-official-portrait-identity",
+    "task": "refinement",
+    "mood": "official",
+    "prompt": "Convert this into a portrait-based staff credential for controlled access.",
+    "orientation": "portrait",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "subtle",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate",
+      "photo"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-official-collectible-art",
+    "task": "refinement",
+    "mood": "official",
+    "prompt": "Keep the decorative art, but discipline it so the pass still reads as official.",
+    "orientation": "portrait",
+    "backgroundMode": "pattern",
+    "colorUsage": "full",
+    "preferredAsset": "background",
+    "treatment": "side-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": true,
+    "fields": [
+      "tier",
+      "expiryDate",
+      "decorativeArt",
+      "dateJoined"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-official-essential-fields",
+    "task": "refinement",
+    "mood": "official",
+    "prompt": "Remove nonessential member details and leave only verification-critical information.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "subtle",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": [
+      "photo",
+      "decorativeArt",
+      "email",
+      "phone",
+      "course",
+      "loyaltyPoints",
+      "dateJoined"
+    ]
+  },
+  {
+    "key": "refinement-official-rewards-led",
+    "task": "refinement",
+    "mood": "official",
+    "prompt": "Clarify status and benefits while preserving an authoritative visual language.",
+    "orientation": "landscape",
+    "backgroundMode": "gradient",
+    "colorUsage": "dominant",
+    "preferredAsset": "background",
+    "treatment": "background-emblem",
+    "intensity": "medium",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate",
+      "loyaltyPoints"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-official-lanyard-badge",
+    "task": "refinement",
+    "mood": "official",
+    "prompt": "Reformat this as a tall official badge suited to a lanyard.",
+    "orientation": "portrait",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "dominant",
+    "preferredAsset": "hero",
+    "treatment": "hero-backdrop",
+    "intensity": "medium",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate",
+      "photo",
+      "email"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-official-wallet-landscape",
+    "task": "refinement",
+    "mood": "official",
+    "prompt": "Convert the current design into a compact official landscape wallet pass.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "logo-watermark",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-official-network-contact",
+    "task": "refinement",
+    "mood": "official",
+    "prompt": "Add professional contact information while keeping the credential trustworthy.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "subtle",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate",
+      "photo",
+      "email",
+      "phone"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-official-immersive-color",
+    "task": "refinement",
+    "mood": "official",
+    "prompt": "Strengthen the official brand color across the whole credential.",
+    "orientation": "portrait",
+    "backgroundMode": "gradient",
+    "colorUsage": "full",
+    "preferredAsset": "background",
+    "treatment": "background-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-official-quiet-mark",
+    "task": "refinement",
+    "mood": "official",
+    "prompt": "Quiet the design and use the logo only as a subtle institutional watermark.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "subtle",
+    "preferredAsset": "logo",
+    "treatment": "logo-watermark",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-official-pattern-system",
+    "task": "refinement",
+    "mood": "official",
+    "prompt": "Introduce a restrained anti-counterfeit-style pattern without making it decorative.",
+    "orientation": "portrait",
+    "backgroundMode": "pattern",
+    "colorUsage": "dominant",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "medium",
+    "usesPhoto": false,
+    "usesDecorativeArt": true,
+    "fields": [
+      "tier",
+      "expiryDate",
+      "decorativeArt"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-official-image-panel",
+    "task": "refinement",
+    "mood": "official",
+    "prompt": "Move the selected image into a controlled side panel beside the official fields.",
+    "orientation": "landscape",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "dominant",
+    "preferredAsset": "background",
+    "treatment": "hero-backdrop",
+    "intensity": "medium",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate",
+      "photo"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-official-scan-dominant",
+    "task": "refinement",
+    "mood": "official",
+    "prompt": "Make the QR the first thing a verifier can locate and scan.",
+    "orientation": "portrait",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-minimal-verification-first",
+    "task": "refinement",
+    "mood": "minimal",
+    "prompt": "Simplify the current card into one calm verification hierarchy.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-minimal-oversized-emblem",
+    "task": "refinement",
+    "mood": "minimal",
+    "prompt": "Enlarge the logo into one clean geometric statement and remove competing decoration.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "dominant",
+    "preferredAsset": "logo",
+    "treatment": "background-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "expiryDate",
+      "tier"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-minimal-cinematic-backdrop",
+    "task": "refinement",
+    "mood": "minimal",
+    "prompt": "Use one brand photograph as the only visual flourish in an otherwise sparse card.",
+    "orientation": "landscape",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "full",
+    "preferredAsset": "hero",
+    "treatment": "hero-backdrop",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "expiryDate",
+      "tier"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-minimal-portrait-identity",
+    "task": "refinement",
+    "mood": "minimal",
+    "prompt": "Turn this into a clean portrait identity card with no unnecessary details.",
+    "orientation": "portrait",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "subtle",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "expiryDate",
+      "photo",
+      "tier"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-minimal-collectible-art",
+    "task": "refinement",
+    "mood": "minimal",
+    "prompt": "Reduce the art area to one small, intentional accent.",
+    "orientation": "portrait",
+    "backgroundMode": "pattern",
+    "colorUsage": "full",
+    "preferredAsset": "background",
+    "treatment": "side-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": true,
+    "fields": [
+      "expiryDate",
+      "tier",
+      "decorativeArt",
+      "dateJoined"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-minimal-essential-fields",
+    "task": "refinement",
+    "mood": "minimal",
+    "prompt": "Remove every field that is not essential to membership verification.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "subtle",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "expiryDate"
+    ],
+    "removeFields": [
+      "photo",
+      "decorativeArt",
+      "email",
+      "phone",
+      "course",
+      "loyaltyPoints",
+      "dateJoined"
+    ]
+  },
+  {
+    "key": "refinement-minimal-rewards-led",
+    "task": "refinement",
+    "mood": "minimal",
+    "prompt": "Show tier and points with quiet typography instead of promotional styling.",
+    "orientation": "landscape",
+    "backgroundMode": "gradient",
+    "colorUsage": "dominant",
+    "preferredAsset": "background",
+    "treatment": "background-emblem",
+    "intensity": "medium",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "expiryDate",
+      "tier",
+      "loyaltyPoints"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-minimal-lanyard-badge",
+    "task": "refinement",
+    "mood": "minimal",
+    "prompt": "Convert this into a disciplined vertical badge with a restrained portrait.",
+    "orientation": "portrait",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "dominant",
+    "preferredAsset": "hero",
+    "treatment": "hero-backdrop",
+    "intensity": "medium",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "expiryDate",
+      "photo",
+      "tier",
+      "email"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-minimal-wallet-landscape",
+    "task": "refinement",
+    "mood": "minimal",
+    "prompt": "Reformat the card as a thin horizontal wallet pass.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "logo-watermark",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "expiryDate",
+      "tier"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-minimal-network-contact",
+    "task": "refinement",
+    "mood": "minimal",
+    "prompt": "Add contact details, but preserve the minimal visual density.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "subtle",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "expiryDate",
+      "photo",
+      "tier",
+      "email",
+      "phone"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-minimal-immersive-color",
+    "task": "refinement",
+    "mood": "minimal",
+    "prompt": "Use the primary color across the card while keeping the composition exceptionally simple.",
+    "orientation": "portrait",
+    "backgroundMode": "gradient",
+    "colorUsage": "full",
+    "preferredAsset": "background",
+    "treatment": "background-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "expiryDate",
+      "tier"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-minimal-quiet-mark",
+    "task": "refinement",
+    "mood": "minimal",
+    "prompt": "Replace visible branding with a faint logo watermark.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "subtle",
+    "preferredAsset": "logo",
+    "treatment": "logo-watermark",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "expiryDate",
+      "tier"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-minimal-pattern-system",
+    "task": "refinement",
+    "mood": "minimal",
+    "prompt": "Turn the loud decoration into a barely visible repeating pattern.",
+    "orientation": "portrait",
+    "backgroundMode": "pattern",
+    "colorUsage": "dominant",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "medium",
+    "usesPhoto": false,
+    "usesDecorativeArt": true,
+    "fields": [
+      "expiryDate",
+      "tier",
+      "decorativeArt"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-minimal-image-panel",
+    "task": "refinement",
+    "mood": "minimal",
+    "prompt": "Move the image into one precise panel and simplify everything around it.",
+    "orientation": "landscape",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "dominant",
+    "preferredAsset": "background",
+    "treatment": "hero-backdrop",
+    "intensity": "medium",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "expiryDate",
+      "photo",
+      "tier"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-minimal-scan-dominant",
+    "task": "refinement",
+    "mood": "minimal",
+    "prompt": "Let the QR lead the layout and make all supporting information quieter.",
+    "orientation": "portrait",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-premium-verification-first",
+    "task": "refinement",
+    "mood": "premium",
+    "prompt": "Elevate the existing card into a concierge-ready premium credential.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "loyaltyPoints",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-premium-oversized-emblem",
+    "task": "refinement",
+    "mood": "premium",
+    "prompt": "Make the logo feel like a large embossed emblem rather than a header mark.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "dominant",
+    "preferredAsset": "logo",
+    "treatment": "background-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "loyaltyPoints"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-premium-cinematic-backdrop",
+    "task": "refinement",
+    "mood": "premium",
+    "prompt": "Use the selected image as a cinematic premium backdrop.",
+    "orientation": "landscape",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "full",
+    "preferredAsset": "hero",
+    "treatment": "hero-backdrop",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "loyaltyPoints"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-premium-portrait-identity",
+    "task": "refinement",
+    "mood": "premium",
+    "prompt": "Turn this into an editorial portrait membership card.",
+    "orientation": "portrait",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "subtle",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "loyaltyPoints",
+      "photo",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-premium-collectible-art",
+    "task": "refinement",
+    "mood": "premium",
+    "prompt": "Refine the artwork area so the card feels like a collectible patron credential.",
+    "orientation": "portrait",
+    "backgroundMode": "pattern",
+    "colorUsage": "full",
+    "preferredAsset": "background",
+    "treatment": "side-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": true,
+    "fields": [
+      "tier",
+      "loyaltyPoints",
+      "decorativeArt",
+      "dateJoined"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-premium-essential-fields",
+    "task": "refinement",
+    "mood": "premium",
+    "prompt": "Remove crowded fields and let spacing create the premium feeling.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "subtle",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "loyaltyPoints",
+      "expiryDate"
+    ],
+    "removeFields": [
+      "photo",
+      "decorativeArt",
+      "email",
+      "phone",
+      "course",
+      "loyaltyPoints",
+      "dateJoined"
+    ]
+  },
+  {
+    "key": "refinement-premium-rewards-led",
+    "task": "refinement",
+    "mood": "premium",
+    "prompt": "Make tier and points the centerpiece of a polished rewards experience.",
+    "orientation": "landscape",
+    "backgroundMode": "gradient",
+    "colorUsage": "dominant",
+    "preferredAsset": "background",
+    "treatment": "background-emblem",
+    "intensity": "medium",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "loyaltyPoints"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-premium-lanyard-badge",
+    "task": "refinement",
+    "mood": "premium",
+    "prompt": "Convert the design into a tall VIP hospitality badge.",
+    "orientation": "portrait",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "dominant",
+    "preferredAsset": "hero",
+    "treatment": "hero-backdrop",
+    "intensity": "medium",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "loyaltyPoints",
+      "photo",
+      "email"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-premium-wallet-landscape",
+    "task": "refinement",
+    "mood": "premium",
+    "prompt": "Reformat this as a precision-crafted landscape wallet card.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "logo-watermark",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "loyaltyPoints",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-premium-network-contact",
+    "task": "refinement",
+    "mood": "premium",
+    "prompt": "Add portrait and contact details for a private member network.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "subtle",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "loyaltyPoints",
+      "photo",
+      "email",
+      "phone"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-premium-immersive-color",
+    "task": "refinement",
+    "mood": "premium",
+    "prompt": "Make the official color much more immersive without losing legibility.",
+    "orientation": "portrait",
+    "backgroundMode": "gradient",
+    "colorUsage": "full",
+    "preferredAsset": "background",
+    "treatment": "background-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "loyaltyPoints"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-premium-quiet-mark",
+    "task": "refinement",
+    "mood": "premium",
+    "prompt": "Dial back visible effects and rely on a quiet premium watermark.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "subtle",
+    "preferredAsset": "logo",
+    "treatment": "logo-watermark",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "loyaltyPoints",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-premium-pattern-system",
+    "task": "refinement",
+    "mood": "premium",
+    "prompt": "Replace generic decoration with a bespoke-feeling signature pattern.",
+    "orientation": "portrait",
+    "backgroundMode": "pattern",
+    "colorUsage": "dominant",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "medium",
+    "usesPhoto": false,
+    "usesDecorativeArt": true,
+    "fields": [
+      "tier",
+      "loyaltyPoints",
+      "decorativeArt"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-premium-image-panel",
+    "task": "refinement",
+    "mood": "premium",
+    "prompt": "Use a refined image panel beside a precise member-benefit hierarchy.",
+    "orientation": "landscape",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "dominant",
+    "preferredAsset": "background",
+    "treatment": "hero-backdrop",
+    "intensity": "medium",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "loyaltyPoints",
+      "photo"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-premium-scan-dominant",
+    "task": "refinement",
+    "mood": "premium",
+    "prompt": "Integrate the QR into the premium composition instead of leaving it as an afterthought.",
+    "orientation": "portrait",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "loyaltyPoints",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-playful-verification-first",
+    "task": "refinement",
+    "mood": "playful",
+    "prompt": "Make the current verification experience feel friendlier and more welcoming.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-playful-oversized-emblem",
+    "task": "refinement",
+    "mood": "playful",
+    "prompt": "Turn the logo into an oversized playful shape around the member details.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "dominant",
+    "preferredAsset": "logo",
+    "treatment": "background-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-playful-cinematic-backdrop",
+    "task": "refinement",
+    "mood": "playful",
+    "prompt": "Use the hero image as a bright social backdrop.",
+    "orientation": "landscape",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "full",
+    "preferredAsset": "hero",
+    "treatment": "hero-backdrop",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-playful-portrait-identity",
+    "task": "refinement",
+    "mood": "playful",
+    "prompt": "Make the member photo feel like a lively community profile.",
+    "orientation": "portrait",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "subtle",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "photo",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-playful-collectible-art",
+    "task": "refinement",
+    "mood": "playful",
+    "prompt": "Add a collectible character or decorative-art area with join date.",
+    "orientation": "portrait",
+    "backgroundMode": "pattern",
+    "colorUsage": "full",
+    "preferredAsset": "background",
+    "treatment": "side-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": true,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "dateJoined"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-playful-essential-fields",
+    "task": "refinement",
+    "mood": "playful",
+    "prompt": "Remove the clutter and keep only the friendly essentials.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "subtle",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "expiryDate"
+    ],
+    "removeFields": [
+      "photo",
+      "decorativeArt",
+      "email",
+      "phone",
+      "course",
+      "loyaltyPoints",
+      "dateJoined"
+    ]
+  },
+  {
+    "key": "refinement-playful-rewards-led",
+    "task": "refinement",
+    "mood": "playful",
+    "prompt": "Present tier and points like visible progress in a game.",
+    "orientation": "landscape",
+    "backgroundMode": "gradient",
+    "colorUsage": "dominant",
+    "preferredAsset": "background",
+    "treatment": "background-emblem",
+    "intensity": "medium",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "loyaltyPoints"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-playful-lanyard-badge",
+    "task": "refinement",
+    "mood": "playful",
+    "prompt": "Convert this into a lively vertical community badge.",
+    "orientation": "portrait",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "dominant",
+    "preferredAsset": "hero",
+    "treatment": "hero-backdrop",
+    "intensity": "medium",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "photo",
+      "email"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-playful-wallet-landscape",
+    "task": "refinement",
+    "mood": "playful",
+    "prompt": "Make it a compact horizontal wallet pass that still feels energetic.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "logo-watermark",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-playful-network-contact",
+    "task": "refinement",
+    "mood": "playful",
+    "prompt": "Add photo and contact details for a social member profile.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "subtle",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "photo",
+      "email",
+      "phone"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-playful-immersive-color",
+    "task": "refinement",
+    "mood": "playful",
+    "prompt": "Push the official color into a joyful full-card treatment.",
+    "orientation": "portrait",
+    "backgroundMode": "gradient",
+    "colorUsage": "full",
+    "preferredAsset": "background",
+    "treatment": "background-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-playful-quiet-mark",
+    "task": "refinement",
+    "mood": "playful",
+    "prompt": "Tone down the noise and use a soft logo watermark as the playful detail.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "subtle",
+    "preferredAsset": "logo",
+    "treatment": "logo-watermark",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-playful-pattern-system",
+    "task": "refinement",
+    "mood": "playful",
+    "prompt": "Replace the current background with a bold branded wrapping-paper pattern.",
+    "orientation": "portrait",
+    "backgroundMode": "pattern",
+    "colorUsage": "dominant",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "medium",
+    "usesPhoto": false,
+    "usesDecorativeArt": true,
+    "fields": [
+      "tier",
+      "decorativeArt"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-playful-image-panel",
+    "task": "refinement",
+    "mood": "playful",
+    "prompt": "Move the bright image into a side panel beside approachable member information.",
+    "orientation": "landscape",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "dominant",
+    "preferredAsset": "background",
+    "treatment": "hero-backdrop",
+    "intensity": "medium",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "photo"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-playful-scan-dominant",
+    "task": "refinement",
+    "mood": "playful",
+    "prompt": "Make the QR part of the playful rhythm and easier to find.",
+    "orientation": "portrait",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-creative-verification-first",
+    "task": "refinement",
+    "mood": "creative",
+    "prompt": "Recompose the current card as an art-directed but usable verification credential.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-creative-oversized-emblem",
+    "task": "refinement",
+    "mood": "creative",
+    "prompt": "Turn the logo into a giant poster-like graphic.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "dominant",
+    "preferredAsset": "logo",
+    "treatment": "background-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-creative-cinematic-backdrop",
+    "task": "refinement",
+    "mood": "creative",
+    "prompt": "Use the hero image as the full expressive canvas.",
+    "orientation": "landscape",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "full",
+    "preferredAsset": "hero",
+    "treatment": "hero-backdrop",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-creative-portrait-identity",
+    "task": "refinement",
+    "mood": "creative",
+    "prompt": "Convert the member identity into an independent-magazine-style portrait layout.",
+    "orientation": "portrait",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "subtle",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "photo",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-creative-collectible-art",
+    "task": "refinement",
+    "mood": "creative",
+    "prompt": "Add a dominant custom-art area and make the card feel collectible.",
+    "orientation": "portrait",
+    "backgroundMode": "pattern",
+    "colorUsage": "full",
+    "preferredAsset": "background",
+    "treatment": "side-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": true,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "dateJoined"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-creative-essential-fields",
+    "task": "refinement",
+    "mood": "creative",
+    "prompt": "Remove the excess information and keep the experimental composition sparse.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "subtle",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "expiryDate"
+    ],
+    "removeFields": [
+      "photo",
+      "decorativeArt",
+      "email",
+      "phone",
+      "course",
+      "loyaltyPoints",
+      "dateJoined"
+    ]
+  },
+  {
+    "key": "refinement-creative-rewards-led",
+    "task": "refinement",
+    "mood": "creative",
+    "prompt": "Turn tier and points into a bold typographic artwork.",
+    "orientation": "landscape",
+    "backgroundMode": "gradient",
+    "colorUsage": "dominant",
+    "preferredAsset": "background",
+    "treatment": "background-emblem",
+    "intensity": "medium",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "loyaltyPoints"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-creative-lanyard-badge",
+    "task": "refinement",
+    "mood": "creative",
+    "prompt": "Reformat this as a tall limited-edition creative-event badge.",
+    "orientation": "portrait",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "dominant",
+    "preferredAsset": "hero",
+    "treatment": "hero-backdrop",
+    "intensity": "medium",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "photo",
+      "email"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-creative-wallet-landscape",
+    "task": "refinement",
+    "mood": "creative",
+    "prompt": "Create an asymmetric horizontal wallet composition.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "logo-watermark",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-creative-network-contact",
+    "task": "refinement",
+    "mood": "creative",
+    "prompt": "Add portrait and contact details like a compact portfolio cover.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "subtle",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "photo",
+      "email",
+      "phone"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-creative-immersive-color",
+    "task": "refinement",
+    "mood": "creative",
+    "prompt": "Use the primary color as a full-bleed expressive field.",
+    "orientation": "portrait",
+    "backgroundMode": "gradient",
+    "colorUsage": "full",
+    "preferredAsset": "background",
+    "treatment": "background-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-creative-quiet-mark",
+    "task": "refinement",
+    "mood": "creative",
+    "prompt": "Make the card conceptually quieter with a barely visible logo artifact.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "subtle",
+    "preferredAsset": "logo",
+    "treatment": "logo-watermark",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-creative-pattern-system",
+    "task": "refinement",
+    "mood": "creative",
+    "prompt": "Replace generic decoration with a distinctive reusable pattern system.",
+    "orientation": "portrait",
+    "backgroundMode": "pattern",
+    "colorUsage": "dominant",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "medium",
+    "usesPhoto": false,
+    "usesDecorativeArt": true,
+    "fields": [
+      "tier",
+      "decorativeArt"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-creative-image-panel",
+    "task": "refinement",
+    "mood": "creative",
+    "prompt": "Create stronger tension between one image panel and the information hierarchy.",
+    "orientation": "landscape",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "dominant",
+    "preferredAsset": "background",
+    "treatment": "hero-backdrop",
+    "intensity": "medium",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "photo"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-creative-scan-dominant",
+    "task": "refinement",
+    "mood": "creative",
+    "prompt": "Make the QR the visual anchor without making the rest of the card conventional.",
+    "orientation": "portrait",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-cyberpunk-verification-first",
+    "task": "refinement",
+    "mood": "cyberpunk",
+    "prompt": "Optimize the current token for rapid verification in a high-energy digital venue.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-cyberpunk-oversized-emblem",
+    "task": "refinement",
+    "mood": "cyberpunk",
+    "prompt": "Turn the logo into a giant illuminated system emblem.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "dominant",
+    "preferredAsset": "logo",
+    "treatment": "background-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-cyberpunk-cinematic-backdrop",
+    "task": "refinement",
+    "mood": "cyberpunk",
+    "prompt": "Replace the background with a high-contrast futuristic hero image.",
+    "orientation": "landscape",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "full",
+    "preferredAsset": "hero",
+    "treatment": "hero-backdrop",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-cyberpunk-portrait-identity",
+    "task": "refinement",
+    "mood": "cyberpunk",
+    "prompt": "Make this a portrait identity token with a prominent face and status readout.",
+    "orientation": "portrait",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "subtle",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "photo",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-cyberpunk-collectible-art",
+    "task": "refinement",
+    "mood": "cyberpunk",
+    "prompt": "Add a collectible digital-character artwork slot.",
+    "orientation": "portrait",
+    "backgroundMode": "pattern",
+    "colorUsage": "full",
+    "preferredAsset": "background",
+    "treatment": "side-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": true,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "dateJoined"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-cyberpunk-essential-fields",
+    "task": "refinement",
+    "mood": "cyberpunk",
+    "prompt": "Strip the token down to critical identity and access data.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "subtle",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "expiryDate"
+    ],
+    "removeFields": [
+      "photo",
+      "decorativeArt",
+      "email",
+      "phone",
+      "course",
+      "loyaltyPoints",
+      "dateJoined"
+    ]
+  },
+  {
+    "key": "refinement-cyberpunk-rewards-led",
+    "task": "refinement",
+    "mood": "cyberpunk",
+    "prompt": "Present tier and points like live system statistics.",
+    "orientation": "landscape",
+    "backgroundMode": "gradient",
+    "colorUsage": "dominant",
+    "preferredAsset": "background",
+    "treatment": "background-emblem",
+    "intensity": "medium",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "loyaltyPoints"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-cyberpunk-lanyard-badge",
+    "task": "refinement",
+    "mood": "cyberpunk",
+    "prompt": "Convert this into a tall neon lanyard badge.",
+    "orientation": "portrait",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "dominant",
+    "preferredAsset": "hero",
+    "treatment": "hero-backdrop",
+    "intensity": "medium",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "photo",
+      "email"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-cyberpunk-wallet-landscape",
+    "task": "refinement",
+    "mood": "cyberpunk",
+    "prompt": "Reformat it as a compact landscape heads-up-display wallet token.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "logo-watermark",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-cyberpunk-network-contact",
+    "task": "refinement",
+    "mood": "cyberpunk",
+    "prompt": "Add portrait and direct contact channels for a futuristic professional ID.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "subtle",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "photo",
+      "email",
+      "phone"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-cyberpunk-immersive-color",
+    "task": "refinement",
+    "mood": "cyberpunk",
+    "prompt": "Flood the pass with official color and sharper contrast.",
+    "orientation": "portrait",
+    "backgroundMode": "gradient",
+    "colorUsage": "full",
+    "preferredAsset": "background",
+    "treatment": "background-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-cyberpunk-quiet-mark",
+    "task": "refinement",
+    "mood": "cyberpunk",
+    "prompt": "Replace loud effects with a faint holographic logo watermark.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "subtle",
+    "preferredAsset": "logo",
+    "treatment": "logo-watermark",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-cyberpunk-pattern-system",
+    "task": "refinement",
+    "mood": "cyberpunk",
+    "prompt": "Introduce a coded repeating pattern that suggests encrypted data.",
+    "orientation": "portrait",
+    "backgroundMode": "pattern",
+    "colorUsage": "dominant",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "medium",
+    "usesPhoto": false,
+    "usesDecorativeArt": true,
+    "fields": [
+      "tier",
+      "decorativeArt"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-cyberpunk-image-panel",
+    "task": "refinement",
+    "mood": "cyberpunk",
+    "prompt": "Move the dramatic image into a panel beside a precise digital readout.",
+    "orientation": "landscape",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "dominant",
+    "preferredAsset": "background",
+    "treatment": "hero-backdrop",
+    "intensity": "medium",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "photo"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-cyberpunk-scan-dominant",
+    "task": "refinement",
+    "mood": "cyberpunk",
+    "prompt": "Make scanning the central interaction and enlarge the QR zone.",
+    "orientation": "portrait",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "decorativeArt",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-academic-verification-first",
+    "task": "refinement",
+    "mood": "academic",
+    "prompt": "Make the current card suitable for library, exam, and campus-building verification.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "studentId",
+      "course",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-academic-oversized-emblem",
+    "task": "refinement",
+    "mood": "academic",
+    "prompt": "Turn the university mark into a large heraldic background emblem.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "dominant",
+    "preferredAsset": "logo",
+    "treatment": "background-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "studentId",
+      "course",
+      "expiryDate",
+      "tier"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-academic-cinematic-backdrop",
+    "task": "refinement",
+    "mood": "academic",
+    "prompt": "Use a campus image as a formal institutional backdrop.",
+    "orientation": "landscape",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "full",
+    "preferredAsset": "hero",
+    "treatment": "hero-backdrop",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "studentId",
+      "course",
+      "expiryDate",
+      "tier"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-academic-portrait-identity",
+    "task": "refinement",
+    "mood": "academic",
+    "prompt": "Add a clear student portrait, student number, course, and expiry.",
+    "orientation": "portrait",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "subtle",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "studentId",
+      "course",
+      "expiryDate",
+      "tier"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-academic-collectible-art",
+    "task": "refinement",
+    "mood": "academic",
+    "prompt": "Turn this into a tasteful alumni or student-society collectible card.",
+    "orientation": "portrait",
+    "backgroundMode": "pattern",
+    "colorUsage": "full",
+    "preferredAsset": "background",
+    "treatment": "side-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": true,
+    "fields": [
+      "photo",
+      "studentId",
+      "course",
+      "expiryDate",
+      "tier",
+      "decorativeArt",
+      "dateJoined"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-academic-essential-fields",
+    "task": "refinement",
+    "mood": "academic",
+    "prompt": "Remove everything not required for campus verification.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "subtle",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "studentId",
+      "course",
+      "expiryDate"
+    ],
+    "removeFields": [
+      "photo",
+      "decorativeArt",
+      "email",
+      "phone",
+      "course",
+      "loyaltyPoints",
+      "dateJoined"
+    ]
+  },
+  {
+    "key": "refinement-academic-rewards-led",
+    "task": "refinement",
+    "mood": "academic",
+    "prompt": "Clarify academic status and available benefits.",
+    "orientation": "landscape",
+    "backgroundMode": "gradient",
+    "colorUsage": "dominant",
+    "preferredAsset": "background",
+    "treatment": "background-emblem",
+    "intensity": "medium",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "studentId",
+      "course",
+      "expiryDate",
+      "tier",
+      "loyaltyPoints"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-academic-lanyard-badge",
+    "task": "refinement",
+    "mood": "academic",
+    "prompt": "Convert this into a tall academic conference badge.",
+    "orientation": "portrait",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "dominant",
+    "preferredAsset": "hero",
+    "treatment": "hero-backdrop",
+    "intensity": "medium",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "studentId",
+      "course",
+      "expiryDate",
+      "tier",
+      "email"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-academic-wallet-landscape",
+    "task": "refinement",
+    "mood": "academic",
+    "prompt": "Reformat it as a practical landscape student wallet pass.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "logo-watermark",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "studentId",
+      "course",
+      "expiryDate",
+      "tier"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-academic-network-contact",
+    "task": "refinement",
+    "mood": "academic",
+    "prompt": "Add portrait and professional contact details for academic networking.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "subtle",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "studentId",
+      "course",
+      "expiryDate",
+      "tier",
+      "email",
+      "phone"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-academic-immersive-color",
+    "task": "refinement",
+    "mood": "academic",
+    "prompt": "Strengthen the institutional primary color while keeping formal authority.",
+    "orientation": "portrait",
+    "backgroundMode": "gradient",
+    "colorUsage": "full",
+    "preferredAsset": "background",
+    "treatment": "background-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "studentId",
+      "course",
+      "expiryDate",
+      "tier"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-academic-quiet-mark",
+    "task": "refinement",
+    "mood": "academic",
+    "prompt": "Replace the loud branding with a subtle crest-like watermark.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "subtle",
+    "preferredAsset": "logo",
+    "treatment": "logo-watermark",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "studentId",
+      "course",
+      "expiryDate",
+      "tier"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-academic-pattern-system",
+    "task": "refinement",
+    "mood": "academic",
+    "prompt": "Introduce a scholarly pattern inspired by archive labels or library grids.",
+    "orientation": "portrait",
+    "backgroundMode": "pattern",
+    "colorUsage": "dominant",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "medium",
+    "usesPhoto": false,
+    "usesDecorativeArt": true,
+    "fields": [
+      "photo",
+      "studentId",
+      "course",
+      "expiryDate",
+      "tier",
+      "decorativeArt"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-academic-image-panel",
+    "task": "refinement",
+    "mood": "academic",
+    "prompt": "Move the campus image into a side panel beside formal student details.",
+    "orientation": "landscape",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "dominant",
+    "preferredAsset": "background",
+    "treatment": "hero-backdrop",
+    "intensity": "medium",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "studentId",
+      "course",
+      "expiryDate",
+      "tier"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-academic-scan-dominant",
+    "task": "refinement",
+    "mood": "academic",
+    "prompt": "Make the QR dominant for fast controlled entry during exams.",
+    "orientation": "portrait",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "studentId",
+      "course",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-luxury-verification-first",
+    "task": "refinement",
+    "mood": "luxury",
+    "prompt": "Make the existing card feel like a discreet invitation-only credential.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-luxury-oversized-emblem",
+    "task": "refinement",
+    "mood": "luxury",
+    "prompt": "Transform the logo into a monumental embossed-style emblem.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "dominant",
+    "preferredAsset": "logo",
+    "treatment": "background-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-luxury-cinematic-backdrop",
+    "task": "refinement",
+    "mood": "luxury",
+    "prompt": "Use the selected image like a luxury editorial campaign backdrop.",
+    "orientation": "landscape",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "full",
+    "preferredAsset": "hero",
+    "treatment": "hero-backdrop",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-luxury-portrait-identity",
+    "task": "refinement",
+    "mood": "luxury",
+    "prompt": "Turn the member photo into a private-client portrait treatment.",
+    "orientation": "portrait",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "subtle",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate",
+      "photo"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-luxury-collectible-art",
+    "task": "refinement",
+    "mood": "luxury",
+    "prompt": "Refine the artwork area into a carefully framed patron detail.",
+    "orientation": "portrait",
+    "backgroundMode": "pattern",
+    "colorUsage": "full",
+    "preferredAsset": "background",
+    "treatment": "side-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": true,
+    "fields": [
+      "tier",
+      "expiryDate",
+      "decorativeArt",
+      "dateJoined"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-luxury-essential-fields",
+    "task": "refinement",
+    "mood": "luxury",
+    "prompt": "Remove crowded information and let immaculate spacing carry the design.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "subtle",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": [
+      "photo",
+      "decorativeArt",
+      "email",
+      "phone",
+      "course",
+      "loyaltyPoints",
+      "dateJoined"
+    ]
+  },
+  {
+    "key": "refinement-luxury-rewards-led",
+    "task": "refinement",
+    "mood": "luxury",
+    "prompt": "Present tier and rewards as discreet privileges.",
+    "orientation": "landscape",
+    "backgroundMode": "gradient",
+    "colorUsage": "dominant",
+    "preferredAsset": "background",
+    "treatment": "background-emblem",
+    "intensity": "medium",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate",
+      "loyaltyPoints"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-luxury-lanyard-badge",
+    "task": "refinement",
+    "mood": "luxury",
+    "prompt": "Convert this into a tall exclusive VIP badge.",
+    "orientation": "portrait",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "dominant",
+    "preferredAsset": "hero",
+    "treatment": "hero-backdrop",
+    "intensity": "medium",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate",
+      "photo",
+      "email"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-luxury-wallet-landscape",
+    "task": "refinement",
+    "mood": "luxury",
+    "prompt": "Reformat it as a precision-crafted landscape wallet membership.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "logo-watermark",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-luxury-network-contact",
+    "task": "refinement",
+    "mood": "luxury",
+    "prompt": "Rework this as a discreet client introduction card with a photograph and direct communication details.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "subtle",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate",
+      "photo",
+      "email",
+      "phone"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-luxury-immersive-color",
+    "task": "refinement",
+    "mood": "luxury",
+    "prompt": "Use the official color across the full card with tonal depth.",
+    "orientation": "portrait",
+    "backgroundMode": "gradient",
+    "colorUsage": "full",
+    "preferredAsset": "background",
+    "treatment": "background-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-luxury-quiet-mark",
+    "task": "refinement",
+    "mood": "luxury",
+    "prompt": "Remove obvious effects and center the card on an almost invisible watermark.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "subtle",
+    "preferredAsset": "logo",
+    "treatment": "logo-watermark",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-luxury-pattern-system",
+    "task": "refinement",
+    "mood": "luxury",
+    "prompt": "Replace the current pattern with something inspired by engraving or bespoke material.",
+    "orientation": "portrait",
+    "backgroundMode": "pattern",
+    "colorUsage": "dominant",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "medium",
+    "usesPhoto": false,
+    "usesDecorativeArt": true,
+    "fields": [
+      "tier",
+      "expiryDate",
+      "decorativeArt"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-luxury-image-panel",
+    "task": "refinement",
+    "mood": "luxury",
+    "prompt": "Move the premium image into a disciplined panel beside member information.",
+    "orientation": "landscape",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "dominant",
+    "preferredAsset": "background",
+    "treatment": "hero-backdrop",
+    "intensity": "medium",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate",
+      "photo"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-luxury-scan-dominant",
+    "task": "refinement",
+    "mood": "luxury",
+    "prompt": "Make the QR elegant, integrated, and immediately scannable.",
+    "orientation": "portrait",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-event-verification-first",
+    "task": "refinement",
+    "mood": "event",
+    "prompt": "Optimize the current badge for the fastest possible entry-lane verification.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "email",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-event-oversized-emblem",
+    "task": "refinement",
+    "mood": "event",
+    "prompt": "Turn the event logo into a giant stage-like emblem.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "dominant",
+    "preferredAsset": "logo",
+    "treatment": "background-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "email"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-event-cinematic-backdrop",
+    "task": "refinement",
+    "mood": "event",
+    "prompt": "Use the hero image as a full event-poster backdrop.",
+    "orientation": "landscape",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "full",
+    "preferredAsset": "hero",
+    "treatment": "hero-backdrop",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "email"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-event-portrait-identity",
+    "task": "refinement",
+    "mood": "event",
+    "prompt": "Add a highly visible attendee photo for staff inspection.",
+    "orientation": "portrait",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "subtle",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "email",
+      "photo",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-event-collectible-art",
+    "task": "refinement",
+    "mood": "event",
+    "prompt": "Make this a collectible festival pass with art and attendance date.",
+    "orientation": "portrait",
+    "backgroundMode": "pattern",
+    "colorUsage": "full",
+    "preferredAsset": "background",
+    "treatment": "side-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": true,
+    "fields": [
+      "tier",
+      "email",
+      "decorativeArt",
+      "dateJoined"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-event-essential-fields",
+    "task": "refinement",
+    "mood": "event",
+    "prompt": "Remove every detail that entry staff do not need.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "subtle",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "email",
+      "expiryDate"
+    ],
+    "removeFields": [
+      "photo",
+      "decorativeArt",
+      "email",
+      "phone",
+      "course",
+      "loyaltyPoints",
+      "dateJoined"
+    ]
+  },
+  {
+    "key": "refinement-event-rewards-led",
+    "task": "refinement",
+    "mood": "event",
+    "prompt": "Make sponsor or VIP tier and benefits immediately visible.",
+    "orientation": "landscape",
+    "backgroundMode": "gradient",
+    "colorUsage": "dominant",
+    "preferredAsset": "background",
+    "treatment": "background-emblem",
+    "intensity": "medium",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "email",
+      "loyaltyPoints"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-event-lanyard-badge",
+    "task": "refinement",
+    "mood": "event",
+    "prompt": "Convert this into a tall lanyard badge with photo and contact detail.",
+    "orientation": "portrait",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "dominant",
+    "preferredAsset": "hero",
+    "treatment": "hero-backdrop",
+    "intensity": "medium",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "email",
+      "photo"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-event-wallet-landscape",
+    "task": "refinement",
+    "mood": "event",
+    "prompt": "Reformat it as a landscape mobile ticket.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "logo-watermark",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "email",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-event-network-contact",
+    "task": "refinement",
+    "mood": "event",
+    "prompt": "Add portrait, email, and phone for conference networking.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "subtle",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "email",
+      "photo",
+      "phone"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-event-immersive-color",
+    "task": "refinement",
+    "mood": "event",
+    "prompt": "Use the event color as an immersive full-card signal.",
+    "orientation": "portrait",
+    "backgroundMode": "gradient",
+    "colorUsage": "full",
+    "preferredAsset": "background",
+    "treatment": "background-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "email"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-event-quiet-mark",
+    "task": "refinement",
+    "mood": "event",
+    "prompt": "Quiet the badge and rely on a faint event-logo watermark.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "subtle",
+    "preferredAsset": "logo",
+    "treatment": "logo-watermark",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "email",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-event-pattern-system",
+    "task": "refinement",
+    "mood": "event",
+    "prompt": "Introduce a rhythmic pattern that connects the whole badge system.",
+    "orientation": "portrait",
+    "backgroundMode": "pattern",
+    "colorUsage": "dominant",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "medium",
+    "usesPhoto": false,
+    "usesDecorativeArt": true,
+    "fields": [
+      "tier",
+      "email",
+      "decorativeArt"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-event-image-panel",
+    "task": "refinement",
+    "mood": "event",
+    "prompt": "Move the event image into a strong panel beside compact attendee data.",
+    "orientation": "landscape",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "dominant",
+    "preferredAsset": "background",
+    "treatment": "hero-backdrop",
+    "intensity": "medium",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "email",
+      "photo"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-event-scan-dominant",
+    "task": "refinement",
+    "mood": "event",
+    "prompt": "Make the QR dominate the pass for high-volume gate scanning.",
+    "orientation": "portrait",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "tier",
+      "email",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-identity-verification-first",
+    "task": "refinement",
+    "mood": "identity",
+    "prompt": "Make the existing card verifiable in a single glance.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-identity-oversized-emblem",
+    "task": "refinement",
+    "mood": "identity",
+    "prompt": "Enlarge the logo into a supporting emblem that still keeps the member central.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "dominant",
+    "preferredAsset": "logo",
+    "treatment": "background-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-identity-cinematic-backdrop",
+    "task": "refinement",
+    "mood": "identity",
+    "prompt": "Place the identity over a cinematic brand-image backdrop while preserving face clarity.",
+    "orientation": "landscape",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "full",
+    "preferredAsset": "hero",
+    "treatment": "hero-backdrop",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-identity-portrait-identity",
+    "task": "refinement",
+    "mood": "identity",
+    "prompt": "Turn this into a confident portrait-first identity credential.",
+    "orientation": "portrait",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "subtle",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-identity-collectible-art",
+    "task": "refinement",
+    "mood": "identity",
+    "prompt": "Add a personal decorative-art slot without weakening identity verification.",
+    "orientation": "portrait",
+    "backgroundMode": "pattern",
+    "colorUsage": "full",
+    "preferredAsset": "background",
+    "treatment": "side-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": true,
+    "fields": [
+      "photo",
+      "tier",
+      "expiryDate",
+      "decorativeArt",
+      "dateJoined"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-identity-essential-fields",
+    "task": "refinement",
+    "mood": "identity",
+    "prompt": "Remove all fields except face, name, member ID, expiry, and QR.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "subtle",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": [
+      "photo",
+      "decorativeArt",
+      "email",
+      "phone",
+      "course",
+      "loyaltyPoints",
+      "dateJoined"
+    ]
+  },
+  {
+    "key": "refinement-identity-rewards-led",
+    "task": "refinement",
+    "mood": "identity",
+    "prompt": "Add tier and points while preserving the identity-first hierarchy.",
+    "orientation": "landscape",
+    "backgroundMode": "gradient",
+    "colorUsage": "dominant",
+    "preferredAsset": "background",
+    "treatment": "background-emblem",
+    "intensity": "medium",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "tier",
+      "expiryDate",
+      "loyaltyPoints"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-identity-lanyard-badge",
+    "task": "refinement",
+    "mood": "identity",
+    "prompt": "Convert this into a tall wearable identity badge.",
+    "orientation": "portrait",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "dominant",
+    "preferredAsset": "hero",
+    "treatment": "hero-backdrop",
+    "intensity": "medium",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "tier",
+      "expiryDate",
+      "email"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-identity-wallet-landscape",
+    "task": "refinement",
+    "mood": "identity",
+    "prompt": "Reformat this as a landscape phone-wallet identity pass.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "logo-watermark",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-identity-network-contact",
+    "task": "refinement",
+    "mood": "identity",
+    "prompt": "Add email and phone to create a professional member identity credential.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "subtle",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "tier",
+      "expiryDate",
+      "email",
+      "phone"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-identity-immersive-color",
+    "task": "refinement",
+    "mood": "identity",
+    "prompt": "Use the primary color across the full card without reducing portrait clarity.",
+    "orientation": "portrait",
+    "backgroundMode": "gradient",
+    "colorUsage": "full",
+    "preferredAsset": "background",
+    "treatment": "background-emblem",
+    "intensity": "bold",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-identity-quiet-mark",
+    "task": "refinement",
+    "mood": "identity",
+    "prompt": "Replace visible decoration with a quiet logo watermark.",
+    "orientation": "landscape",
+    "backgroundMode": "solid",
+    "colorUsage": "subtle",
+    "preferredAsset": "logo",
+    "treatment": "logo-watermark",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-identity-pattern-system",
+    "task": "refinement",
+    "mood": "identity",
+    "prompt": "Introduce a branded pattern around a clear central portrait.",
+    "orientation": "portrait",
+    "backgroundMode": "pattern",
+    "colorUsage": "dominant",
+    "preferredAsset": "logo",
+    "treatment": "side-emblem",
+    "intensity": "medium",
+    "usesPhoto": false,
+    "usesDecorativeArt": true,
+    "fields": [
+      "photo",
+      "tier",
+      "expiryDate",
+      "decorativeArt"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-identity-image-panel",
+    "task": "refinement",
+    "mood": "identity",
+    "prompt": "Move the image into a side panel beside the organized member portrait.",
+    "orientation": "landscape",
+    "backgroundMode": "image-overlay",
+    "colorUsage": "dominant",
+    "preferredAsset": "background",
+    "treatment": "hero-backdrop",
+    "intensity": "medium",
+    "usesPhoto": true,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  },
+  {
+    "key": "refinement-identity-scan-dominant",
+    "task": "refinement",
+    "mood": "identity",
+    "prompt": "Balance a larger QR with the member portrait as equal verification tools.",
+    "orientation": "portrait",
+    "backgroundMode": "solid",
+    "colorUsage": "balanced",
+    "preferredAsset": "logo",
+    "treatment": "standard",
+    "intensity": "subtle",
+    "usesPhoto": false,
+    "usesDecorativeArt": false,
+    "fields": [
+      "photo",
+      "tier",
+      "expiryDate"
+    ],
+    "removeFields": []
+  }
+]

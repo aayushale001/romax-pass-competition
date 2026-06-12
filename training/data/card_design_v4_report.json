@@ -1,0 +1,85 @@
+{
+  "version": 4,
+  "generatedAt": "2026-06-10T18:31:20.411Z",
+  "totalExamples": 3000,
+  "totalDistinctScenarios": 300,
+  "examplesPerScenario": 10,
+  "maximumScenarioPromptJaccardSimilarity": {
+    "score": 0.769,
+    "left": "generation-playful-oversized-emblem",
+    "right": "refinement-playful-oversized-emblem"
+  },
+  "splits": {
+    "train": {
+      "examples": 2500,
+      "scenarios": 250,
+      "brands": 125,
+      "tasks": {
+        "generation": 120,
+        "refinement": 130
+      },
+      "moods": {
+        "academic": 25,
+        "creative": 25,
+        "cyberpunk": 25,
+        "event": 25,
+        "identity": 25,
+        "luxury": 25,
+        "minimal": 25,
+        "official": 25,
+        "playful": 25,
+        "premium": 25
+      }
+    },
+    "validation": {
+      "examples": 250,
+      "scenarios": 25,
+      "brands": 25,
+      "tasks": {
+        "generation": 15,
+        "refinement": 10
+      },
+      "moods": {
+        "academic": 2,
+        "creative": 2,
+        "cyberpunk": 3,
+        "event": 2,
+        "identity": 3,
+        "luxury": 3,
+        "minimal": 3,
+        "official": 2,
+        "playful": 3,
+        "premium": 2
+      }
+    },
+    "test": {
+      "examples": 250,
+      "scenarios": 25,
+      "brands": 25,
+      "tasks": {
+        "generation": 15,
+        "refinement": 10
+      },
+      "moods": {
+        "academic": 3,
+        "creative": 3,
+        "cyberpunk": 2,
+        "event": 3,
+        "identity": 2,
+        "luxury": 2,
+        "minimal": 2,
+        "official": 3,
+        "playful": 2,
+        "premium": 3
+      }
+    }
+  },
+  "validation": {
+    "duplicateScenarioKeys": 0,
+    "duplicateScenarioPrompts": 0,
+    "duplicateExamplePrompts": 0,
+    "scenarioLeakageAcrossSplits": 0,
+    "brandLeakageAcrossSplits": 0,
+    "invalidConcepts": 0
+  }
+}

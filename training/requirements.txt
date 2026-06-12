@@ -1,0 +1,7 @@
+accelerate
+datasets
+peft
+sentencepiece
+torch
+transformers
+trl
