@@ -95,6 +95,19 @@ training/output/gguf-v6/card-designer-q4_k_m.gguf
 
 Model binaries and training outputs are intentionally ignored by Git.
 
+## Publish Model Weights
+
+Keep generated weights out of normal Git. Publish the quantized GGUF in a
+Hugging Face model repository instead.
+
+```bash
+MODEL_GGUF=training/output/gguf-v6/card-designer-q4_k_m.gguf \
+  npm run model:prepare-hf
+```
+
+See `MODEL_CARD.md` and `docs/huggingface-release.md` for the model card,
+license notes, and upload commands.
+
 ## Evaluate
 
 Start the quantized model with `llama-server`, then run:

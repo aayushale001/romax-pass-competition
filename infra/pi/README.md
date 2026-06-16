@@ -43,6 +43,10 @@ npm run dev
 infra/pi/models/card-designer.gguf
 ```
 
+For the released model, download `card-designer-q4_k_m.gguf` from the Hugging
+Face model repository and either rename it to `card-designer.gguf` or update
+`infra/pi/compose.yaml` to point at the downloaded filename.
+
 3. Start the constrained server:
 
 ```bash
