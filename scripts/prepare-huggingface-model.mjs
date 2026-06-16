@@ -8,7 +8,7 @@ const outputDir = path.resolve(
 const ggufSource = path.resolve(
   process.env.MODEL_GGUF ?? "infra/pi/models/card-designer.gguf",
 );
-const repoId = process.env.HF_MODEL_REPO ?? "aayushale001/romax-card-designer-local";
+const repoId = process.env.HF_MODEL_REPO ?? "aayushale00/romax-card-designer-local";
 
 async function exists(filePath) {
   try {

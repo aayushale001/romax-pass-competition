@@ -6,7 +6,7 @@ in a Hugging Face model repository.
 Recommended model repo:
 
 ```text
-aayushale001/romax-card-designer-local
+aayushale00/romax-card-designer-local
 ```
 
 Recommended license:
@@ -59,7 +59,7 @@ Create the model repo on Hugging Face, then push:
 cd dist/huggingface-model
 git init
 git lfs install
-git remote add origin https://huggingface.co/aayushale001/romax-card-designer-local
+git remote add origin https://huggingface.co/aayushale00/romax-card-designer-local
 git add .
 git commit -m "Add Romax card designer GGUF"
 git push origin main

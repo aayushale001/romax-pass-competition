@@ -72,7 +72,7 @@ Host the actual GGUF weight in a Hugging Face model repository. Recommended
 target:
 
 ```text
-aayushale001/romax-card-designer-local
+aayushale00/romax-card-designer-local
 ```
 
 Prepare the Hugging Face upload folder:
